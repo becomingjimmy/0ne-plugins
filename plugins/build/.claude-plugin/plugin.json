@@ -1,0 +1,9 @@
+{
+  "name": "build",
+  "description": "Build preferences and project infrastructure scaffolding.",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "system",
+  "homepage": "https://0neos.com"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "google",
+  "description": "Create and manage Google Docs, Slides, Sheets, Gmail, Calendar, and Drive.",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "integration",
+  "homepage": "https://0neos.com"
+}

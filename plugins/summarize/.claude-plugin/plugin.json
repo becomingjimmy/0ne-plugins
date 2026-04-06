@@ -1,0 +1,9 @@
+{
+  "name": "summarize",
+  "description": "Generate structured summaries from transcripts.",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "research",
+  "homepage": "https://0neos.com"
+}

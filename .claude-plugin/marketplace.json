@@ -1,0 +1,176 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "0ne-skills",
+  "description": "Premium AI skills for Claude Code by 0neOS — research, strategy, automation, and creative tools.",
+  "owner": {
+    "name": "0neOS",
+    "email": "support@0neos.com"
+  },
+  "plugins": [
+    {
+      "name": "core",
+      "description": "Personal AI Infrastructure core — identity, response format, architecture.",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/core",
+      "category": "core",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "build",
+      "description": "Build preferences and project infrastructure scaffolding.",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/build",
+      "category": "system",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "research",
+      "description": "Comprehensive research, analysis, and content extraction with web search and 242+ Fabric patterns.",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/research",
+      "category": "research",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "council",
+      "description": "Orchestrate debates between AI advisors for strategic decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/council",
+      "category": "creative",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "imagegen",
+      "description": "Generate images using Gemini API.",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/imagegen",
+      "category": "creative",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "redteam",
+      "description": "Adversarial analysis with 32 agents for stress-testing ideas.",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/redteam",
+      "category": "research",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "firstprinciples",
+      "description": "First principles decomposition and analysis.",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/firstprinciples",
+      "category": "research",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "agents",
+      "description": "Dynamic agent composition with custom personalities and voice mapping.",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/agents",
+      "category": "automation",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "advisormaker",
+      "description": "Create AI advisors from expert content and transcripts.",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/advisormaker",
+      "category": "creative",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "google",
+      "description": "Create and manage Google Docs, Slides, Sheets, Gmail, Calendar, and Drive.",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/google",
+      "category": "integration",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "marketing",
+      "description": "Marketing execution — emails, posts, campaigns, workshop promotion.",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/marketing",
+      "category": "automation",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "download",
+      "description": "Download videos, transcribe, and summarize.",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/download",
+      "category": "automation",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "summarize",
+      "description": "Generate structured summaries from transcripts.",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/summarize",
+      "category": "research",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "prompting",
+      "description": "Meta-prompting system for dynamic prompt generation using templates, standards, and patterns.",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/prompting",
+      "category": "system",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "art",
+      "description": "Complete visual content system for illustrations, diagrams, and graphics.",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/art",
+      "category": "creative",
+      "homepage": "https://0neos.com"
+    }
+  ]
+}

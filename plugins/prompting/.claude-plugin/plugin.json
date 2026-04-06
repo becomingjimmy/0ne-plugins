@@ -1,0 +1,9 @@
+{
+  "name": "prompting",
+  "description": "Meta-prompting system for dynamic prompt generation using templates, standards, and patterns.",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "system",
+  "homepage": "https://0neos.com"
+}

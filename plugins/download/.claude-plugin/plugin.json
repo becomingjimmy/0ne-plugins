@@ -1,0 +1,9 @@
+{
+  "name": "download",
+  "description": "Download videos, transcribe, and summarize.",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "automation",
+  "homepage": "https://0neos.com"
+}

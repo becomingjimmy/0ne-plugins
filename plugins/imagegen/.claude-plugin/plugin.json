@@ -1,0 +1,9 @@
+{
+  "name": "imagegen",
+  "description": "Generate images using Gemini API.",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "creative",
+  "homepage": "https://0neos.com"
+}

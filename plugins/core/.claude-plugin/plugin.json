@@ -1,0 +1,9 @@
+{
+  "name": "core",
+  "description": "Personal AI Infrastructure core — identity, response format, architecture.",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "core",
+  "homepage": "https://0neos.com"
+}
