@@ -7,7 +7,7 @@ Premium AI skills for Claude Code by [0neOS](https://0neos.com).
 Add this marketplace to Claude Code:
 
 ```
-/plugins marketplace add https://github.com/0neos/0ne-plugins
+/plugins marketplace add https://github.com/becomingjimmy/0ne-plugins
 ```
 
 Then browse available skills in the Plugins > Discover tab.
