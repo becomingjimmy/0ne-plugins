@@ -1,11 +1,11 @@
 ---
-description: First principles decomposition and analysis.
+description: First principles analysis. USE WHEN first principles, fundamental, root cause, decompose. SkillSearch('firstprinciples') for docs.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # FirstPrinciples — 0ne Premium Skill
 
-First principles decomposition and analysis.
+First principles analysis. USE WHEN first principles, fundamental, root cause, decompose. SkillSearch('firstprinciples') for docs.
 
 ## Activation Check
 

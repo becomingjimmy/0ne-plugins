@@ -1,11 +1,11 @@
 ---
-description: Generate structured summaries from transcripts.
+description: Generate structured summaries from transcripts. USE WHEN summarize, summary, create notes, extract insights from transcript.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # Summarize — 0ne Premium Skill
 
-Generate structured summaries from transcripts.
+Generate structured summaries from transcripts. USE WHEN summarize, summary, create notes, extract insights from transcript.
 
 ## Activation Check
 

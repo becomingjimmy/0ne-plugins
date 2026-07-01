@@ -1,0 +1,10 @@
+{
+  "name": "0necloudpublish",
+  "description": "Publish your changes to make them live. USE WHEN publish, go live, make it live, push changes, ship it, deploy, put it online.",
+  "version": "2.5.1",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

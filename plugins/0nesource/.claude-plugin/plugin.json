@@ -1,0 +1,10 @@
+{
+  "name": "0nesource",
+  "description": "Step 5 source-gathering parent skill. Given a constraint and a one-line ask, route to the right child tool (Download / Research extensive / Transcribe / OSINT / Apify / firecrawl / 0neApiRecon) and land raw material in 03 - Knowledge/<Name>/Source Material/. USE WHEN {PRINCIPAL_NAME} says /0neSource, \"source [X]\", \"gather expert content\", \"capture this podcast\", \"load up [expert] knowledge\", \"pull material on [topic]\", \"build a source folder for [expert/product]\", \"start sourcing for my constraint\", \"scrape this site for source material\", \"interview my senior employee\", \"camcorder this\", or otherwise wants to GATHER raw expert/product/internal material (not synthesize, not build an advisor — that's Step 6 Clone).",
+  "version": "1.1.0",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

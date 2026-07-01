@@ -1,0 +1,10 @@
+{
+  "name": "0necloudupdate",
+  "description": "Apply the latest 0ne Cloud update to your instance. USE WHEN update my 0ne, get latest, apply update, new version, refresh cloud, sync update, install update.",
+  "version": "1.0.1",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

@@ -1,11 +1,11 @@
 ---
-description: Download videos, transcribe, and summarize.
+description: Download videos, transcribe, and summarize. USE WHEN download video, transcribe video, youtube, video to text, summarize video.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # Download — 0ne Premium Skill
 
-Download videos, transcribe, and summarize.
+Download videos, transcribe, and summarize. USE WHEN download video, transcribe video, youtube, video to text, summarize video.
 
 ## Activation Check
 

@@ -1,11 +1,11 @@
 ---
-description: Personal AI Infrastructure core — identity, response format, architecture.
+description: Personal AI Infrastructure core. AUTO-LOADS at session start. USE WHEN any session begins OR user asks about identity, response format, contacts, stack preferences, security protocols, architecture tracking, or founding principles.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # CORE — 0ne Premium Skill
 
-Personal AI Infrastructure core — identity, response format, architecture.
+Personal AI Infrastructure core. AUTO-LOADS at session start. USE WHEN any session begins OR user asks about identity, response format, contacts, stack preferences, security protocols, architecture tracking, or founding principles.
 
 ## Activation Check
 

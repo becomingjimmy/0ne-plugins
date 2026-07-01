@@ -1,9 +1,10 @@
 {
   "name": "research",
-  "description": "Comprehensive research, analysis, and content extraction with web search and 242+ Fabric patterns.",
+  "description": "Fabric-pattern content extraction AND open-web multi-source cited research. USE WHEN user says 'extract wisdom', 'extract alpha', 'analyze content', 'analyze this article/video/transcript', 'use fabric', 'can't get this content', 'research X', 'find sources on X', 'what does the literature say about X', 'extensive research', OR points at a piece of content and asks to process/summarize/extract from it, OR asks an open question that needs cited multi-source synthesis. Extensive mode now runs the full 5-stage pipeline (Scope → 11-angle multi-LLM search → fetch+extract → 3-vote verify → Opus synthesis) — absorbed from /deep-research. DO NOT USE FOR: due diligence / OSINT / background checks (use OSINT skill).",
+  "version": "1.1.1",
   "author": {
     "name": "0neOS"
   },
-  "category": "research",
+  "category": "general",
   "homepage": "https://0neos.com"
 }

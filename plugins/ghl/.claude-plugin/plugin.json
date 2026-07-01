@@ -1,0 +1,10 @@
+{
+  "name": "ghl",
+  "description": "GoHighLevel API ACTION layer (credentials, CLI, quick recipes). Pairs with the GHL software advisor at `03 - Knowledge/GHL/` (KNOWLEDGE layer — verbatim spec for all ~573 endpoints). USE WHEN ghl, gohighlevel, crm, contacts, send email, send sms, workflows, trigger links, custom fields, opportunities, deals, pipelines, calendars, appointments, payments, invoices, products, campaigns, social media.",
+  "version": "2.1.2",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

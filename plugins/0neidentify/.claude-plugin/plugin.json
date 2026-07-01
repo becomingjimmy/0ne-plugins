@@ -1,0 +1,10 @@
+{
+  "name": "0neidentify",
+  "description": "Step 4 diagnostic. Find the single biggest constraint when the answer is unclear, hand it to 0neSync to pin. USE WHEN {PRINCIPAL_NAME} says /0neIdentify, \"identify my constraint\", \"find my constraint\", \"what should I focus on\", \"I don't know what to work on\", \"my week feels off\", \"my business feels stuck\", \"run the diagnostic\", \"audit my time\", \"DRIP\", \"Mozi 6\", \"Mozi Six\", or asks for a constraint audit.",
+  "version": "1.0",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

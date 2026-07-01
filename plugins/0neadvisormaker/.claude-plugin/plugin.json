@@ -1,0 +1,10 @@
+{
+  "name": "0neadvisormaker",
+  "description": "Create AI advisors from expert content OR software documentation. USE WHEN creating advisor, building persona, advisor from transcript, advisor from content, new advisor, make advisor, advisor setup, advisor for [API/SDK/product], software advisor, API advisor, knowledge base for [product].",
+  "version": "2.4.3",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

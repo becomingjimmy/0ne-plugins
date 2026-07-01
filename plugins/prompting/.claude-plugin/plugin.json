@@ -1,9 +1,10 @@
 {
   "name": "prompting",
-  "description": "Meta-prompting system for dynamic prompt generation using templates, standards, and patterns.",
+  "description": "Meta-prompting system for dynamic prompt generation using templates, standards, and patterns. USE WHEN meta-prompting, template generation, prompt optimization, or programmatic prompt composition.",
+  "version": "1.0.1",
   "author": {
     "name": "0neOS"
   },
-  "category": "system",
+  "category": "general",
   "homepage": "https://0neos.com"
 }

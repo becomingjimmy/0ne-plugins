@@ -1,11 +1,11 @@
 ---
-description: Generate images using Gemini API.
+description: Generate images using Gemini API. USE WHEN generate image, create image, image of, picture of, illustration of, draw, visualize, /image.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # ImageGen — 0ne Premium Skill
 
-Generate images using Gemini API.
+Generate images using Gemini API. USE WHEN generate image, create image, image of, picture of, illustration of, draw, visualize, /image.
 
 ## Activation Check
 

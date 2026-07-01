@@ -1,0 +1,10 @@
+{
+  "name": "0neonboarding",
+  "description": "Interactive guided onboarding for new 0ne users. USE WHEN onboarding, start onboarding, lesson 1, lesson 2, lesson 3, lesson 4, lesson 5, next lesson, first lesson, welcome tour, getting started. Five progressive lessons from system tour to deep context interview.",
+  "version": "1.0.1",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

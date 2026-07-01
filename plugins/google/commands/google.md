@@ -1,11 +1,11 @@
 ---
-description: Create and manage Google Docs, Slides, Sheets, Gmail, Calendar, and Drive.
+description: Create and manage Google Docs, Slides, Sheets, Gmail, Calendar, Drive via gws CLI. USE WHEN document, google doc, slides, presentation, spreadsheet, sheet, deck, powerpoint, write doc, create doc, deploy to docs, offer doc to google, email, gmail, calendar, drive.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # Google — 0ne Premium Skill
 
-Create and manage Google Docs, Slides, Sheets, Gmail, Calendar, and Drive.
+Create and manage Google Docs, Slides, Sheets, Gmail, Calendar, Drive via gws CLI. USE WHEN document, google doc, slides, presentation, spreadsheet, sheet, deck, powerpoint, write doc, create doc, deploy to docs, offer doc to google, email, gmail, calendar, drive.
 
 ## Activation Check
 

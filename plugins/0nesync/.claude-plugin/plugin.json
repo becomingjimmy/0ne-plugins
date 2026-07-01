@@ -1,0 +1,10 @@
+{
+  "name": "0nesync",
+  "description": "Daily execution engine. The constraint router plus the DayOS catch-up cycle. USE WHEN {PRINCIPAL_NAME} says /0neSync, asks \"what now\", \"what should I work on\", \"what's next\", wants to capture a task, clear the inbox, mark something done, run a weekly review, set or change the constraint, or check what he should be doing.",
+  "version": "3.1.2",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

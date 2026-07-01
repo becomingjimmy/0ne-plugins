@@ -1,0 +1,10 @@
+{
+  "name": "voiceserver",
+  "description": "Voice server management. USE WHEN voice server, TTS server, voice notification, prosody.",
+  "version": "1.0.1",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

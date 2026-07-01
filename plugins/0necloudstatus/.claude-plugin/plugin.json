@@ -1,0 +1,10 @@
+{
+  "name": "0necloudstatus",
+  "description": "Check if your site is working. USE WHEN status, is my site up, is it working, check my site, site down, broken, not loading.",
+  "version": "1.1.1",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

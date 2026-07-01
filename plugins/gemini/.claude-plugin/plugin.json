@@ -1,0 +1,10 @@
+{
+  "name": "gemini",
+  "description": "Gemini API development reference. USE WHEN building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications.",
+  "version": "1.1.1",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

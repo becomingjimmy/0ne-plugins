@@ -1,0 +1,10 @@
+{
+  "name": "0neagentanalysis",
+  "description": "Standardized deep analysis of any AI agent / harness / framework. USE WHEN analyze agent, analyze harness, evaluate agent, evaluate harness, compare to 0ne, deep dive on [agent], should we adopt [X], new shiny thing, /0neAgentAnalysis. Clones repo, runs 5-agent parallel deep-dive (architecture, security, vs-0ne, community, vs-prior), writes 8 standardized files + machine-readable scorecard, regenerates master comparison matrix.",
+  "version": "1.0.3",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

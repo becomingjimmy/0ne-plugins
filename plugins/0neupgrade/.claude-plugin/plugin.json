@@ -1,0 +1,10 @@
+{
+  "name": "0neupgrade",
+  "description": "Check for and apply 0ne system updates. USE WHEN upgrade, update 0ne, system update, check for updates, upgrade 0ne.",
+  "version": "2.0.1",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

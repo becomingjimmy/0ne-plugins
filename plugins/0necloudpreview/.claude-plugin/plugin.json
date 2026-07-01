@@ -1,0 +1,10 @@
+{
+  "name": "0necloudpreview",
+  "description": "Start a local preview of your cloud app. USE WHEN preview, see changes, run locally, test locally, start dev server, view my site.",
+  "version": "1.2.1",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

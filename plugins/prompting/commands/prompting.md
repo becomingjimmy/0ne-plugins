@@ -1,11 +1,11 @@
 ---
-description: Meta-prompting system for dynamic prompt generation using templates, standards, and patterns.
+description: Meta-prompting system for dynamic prompt generation using templates, standards, and patterns. USE WHEN meta-prompting, template generation, prompt optimization, or programmatic prompt composition.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # Prompting — 0ne Premium Skill
 
-Meta-prompting system for dynamic prompt generation using templates, standards, and patterns.
+Meta-prompting system for dynamic prompt generation using templates, standards, and patterns. USE WHEN meta-prompting, template generation, prompt optimization, or programmatic prompt composition.
 
 ## Activation Check
 

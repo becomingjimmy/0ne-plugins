@@ -1,9 +1,0 @@
-{
-  "name": "agents",
-  "description": "Dynamic agent composition with custom personalities and voice mapping.",
-  "author": {
-    "name": "0neOS"
-  },
-  "category": "automation",
-  "homepage": "https://0neos.com"
-}

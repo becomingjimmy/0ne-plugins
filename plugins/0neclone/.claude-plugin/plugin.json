@@ -1,0 +1,10 @@
+{
+  "name": "0neclone",
+  "description": "Step 6 clone-routing parent skill. Given a `/0neSource`-shaped folder at `03 - Knowledge/<Name>/`, route to the right child (`/Synthesize` for Playbook, `/0neAdvisorMaker` for Advisor, `/0neCouncil` for Council) and land the resulting artifact. Also scaffolds `03 - Knowledge/<Name>/` knowledge folders on natural-language request. USE WHEN {PRINCIPAL_NAME} says /0neClone, \"clone [X]\", \"make a playbook from [X]\", \"build an advisor from [X]\", \"convene a council on [X]\", \"set up a knowledge folder for [X]\", \"turn this source into a playbook\", or otherwise wants to CLONE raw source into a usable artifact (playbook, advisor, or council). Step 6 of 0neOS Roadmap V7 — sits between `/0neSource` (Step 5 gather) and downstream skill-build / execution steps.",
+  "version": "0.1.1",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

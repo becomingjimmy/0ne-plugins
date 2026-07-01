@@ -1,0 +1,10 @@
+{
+  "name": "0neproject",
+  "description": "Create a new project with proper infrastructure. USE WHEN starting a new project, \"let's build\", \"let's start\", \"new project for\", \"kick off a project\", or whenever {PRINCIPAL_NAME} is beginning multi-session work. Auto-creates the project folder under 02 - Projects/ with CLAUDE.md and PROJECT-STATE.md.",
+  "version": "1.1.3",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

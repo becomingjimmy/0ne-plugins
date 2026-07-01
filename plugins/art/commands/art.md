@@ -1,11 +1,11 @@
 ---
-description: Complete visual content system for illustrations, diagrams, and graphics.
+description: Complete visual content system. USE WHEN user wants to create visual content, illustrations, diagrams, OR mentions art, header images, visualizations, mermaid, flowchart, technical diagram, infographic, PAI icon, pack icon, or PAI pack icon.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # Art — 0ne Premium Skill
 
-Complete visual content system for illustrations, diagrams, and graphics.
+Complete visual content system. USE WHEN user wants to create visual content, illustrations, diagrams, OR mentions art, header images, visualizations, mermaid, flowchart, technical diagram, infographic, PAI icon, pack icon, or PAI pack icon.
 
 ## Activation Check
 

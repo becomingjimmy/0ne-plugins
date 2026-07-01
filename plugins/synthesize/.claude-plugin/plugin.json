@@ -1,0 +1,10 @@
+{
+  "name": "synthesize",
+  "description": "Transform knowledge sources into standalone context summaries. USE WHEN synthesize, summarize playbook, extract framework, create standalone summary, knowledge synthesis, process transcript, convert course to notes.",
+  "version": "1.1.0",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

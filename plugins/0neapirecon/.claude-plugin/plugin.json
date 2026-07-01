@@ -1,0 +1,10 @@
+{
+  "name": "0neapirecon",
+  "description": "Reverse-engineer an undocumented internal web API into a typed CLI + skill. USE WHEN /0neApiRecon, recon api, reverse engineer api, no public api, internal api, capture browser traffic, build client for [product], scrape internal api, intercept browser requests, no open api for X, the public api doesnt support, reverse engineer the website, sniff network requests, undocumented api, hidden api, build my own client for, automate [product] without an api.",
+  "version": "0.3.0",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

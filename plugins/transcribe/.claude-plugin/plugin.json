@@ -1,0 +1,10 @@
+{
+  "name": "transcribe",
+  "description": "Local video/audio transcription using Parakeet v3. USE WHEN transcribe, transcription, convert video to text, speech to text. Outputs wrapped markdown (.md) to same directory as source, or to a project-prescribed filename.",
+  "version": "1.1.0",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "0nememory",
+  "description": "Deep context loader for One. USE WHEN doing substantive work that needs business context, strategy context, personal context, thought partnering, 1-3-1 decisions, marketing, campaigns, offer docs, planning, goal setting, business decisions, pricing, competitors, ICP analysis, team discussions, fulfillment, process improvement, or any task where deeper understanding of {PRINCIPAL_NAME} would improve output.",
+  "version": "1.0.2",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

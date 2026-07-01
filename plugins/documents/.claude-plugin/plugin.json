@@ -1,0 +1,10 @@
+{
+  "name": "documents",
+  "description": "Document processing. USE WHEN document, process file. SkillSearch('documents') for docs.",
+  "version": "1.0.1",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

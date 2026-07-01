@@ -1,0 +1,10 @@
+{
+  "name": "0neespanol",
+  "description": "Switch the entire 0ne system to Spanish — language preference for One's responses plus Edge TTS voice (Ramona). USE WHEN switch to spanish, change to spanish, cambiar a español, español, espanol, spanish mode, /0neEspañol, /0neEspanol, set language spanish, voz en español.",
+  "version": "1.0.1",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

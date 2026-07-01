@@ -1,9 +1,10 @@
 {
   "name": "art",
-  "description": "Complete visual content system for illustrations, diagrams, and graphics.",
+  "description": "Complete visual content system. USE WHEN user wants to create visual content, illustrations, diagrams, OR mentions art, header images, visualizations, mermaid, flowchart, technical diagram, infographic, PAI icon, pack icon, or PAI pack icon.",
+  "version": "1.0.1",
   "author": {
     "name": "0neOS"
   },
-  "category": "creative",
+  "category": "general",
   "homepage": "https://0neos.com"
 }

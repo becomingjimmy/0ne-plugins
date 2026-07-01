@@ -1,0 +1,10 @@
+{
+  "name": "0netelegram",
+  "description": "Telegram bot setup and configuration. USE WHEN telegram, telegram bot, set up telegram, configure telegram, telegram token, botfather, 0netelegram.",
+  "version": "1.0.1",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}
