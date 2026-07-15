@@ -1,7 +1,7 @@
 {
   "name": "0necontext",
-  "description": "Build and load the AI's context layer — the architectural memory of who {PRINCIPAL_NAME} is, what his business is, and how it operates. USE WHEN /0neContext, /0neContext build, /0neContext commitments, build my context, build context, context interview, north star, master prompt, business brain, business framework, customer lifecycle map, process assessment, RACI map, AI-fy my commitments, inventory my commitments, list my commitments, build my commitments, turn my commitments into projects, OR for substantive work that needs business context, strategy context, personal context, thought partnering, 1-3-1 decisions, marketing, campaigns, offer docs, planning, goal setting, business decisions, pricing, competitors, ICP analysis, team discussions, fulfillment, process improvement.",
-  "version": "0.3.2",
+  "description": "Build and load the AI's context layer — the architectural memory of who {PRINCIPAL_NAME} is, what his business is, and how it operates. USE WHEN /0neContext, /0neContext build, /0neContext commitments, build my context, build context, context interview, north star, master prompt, business brain, business framework, customer lifecycle map, process assessment, RACI map, AI-fy my commitments, inventory my commitments, list my commitments, build my commitments, turn my commitments into projects, /0neContext fridge, build my tech stack, capture my tools, what tools do I own, OR for substantive work that needs business context, strategy context, personal context, thought partnering, 1-3-1 decisions, marketing, campaigns, offer docs, planning, goal setting, business decisions, pricing, competitors, ICP analysis, team discussions, fulfillment, process improvement.",
+  "version": "0.4.0",
   "author": {
     "name": "0neOS"
   },

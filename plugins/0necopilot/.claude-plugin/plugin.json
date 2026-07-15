@@ -1,0 +1,10 @@
+{
+  "name": "0necopilot",
+  "description": "Live session copilot — Zoom/mic tap → Deepgram STT → live orchestrator → operator surface + prospect artifact. USE WHEN paid session, hiring interview, sales call, sales discovery, discovery call, podcast interview, coaching call, 1-on-1, team standup, live copilot, real-time coaching, live transcription, live prompt, listen along, run copilot, start copilot, /0neCopilot, new mode, mode design, session copilot.",
+  "version": "1.2.1",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

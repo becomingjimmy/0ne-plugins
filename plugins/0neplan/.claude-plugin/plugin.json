@@ -1,0 +1,10 @@
+{
+  "name": "0neplan",
+  "description": "The plan before the plan — a thought partner that finds the real goal before designing a build. USE WHEN /0nePlan, \"0ne plan\", \"help me plan this build\", \"design a solution for\", \"plan out this app\", \"I have an idea I want to plan\", \"think through this build with me\", \"what's the best way to build\", \"architect this for me\", OR before handing a build to plan mode / Algorithm mode. Runs a four-phase arc: extract the true goal, brainstorm solutions, match to what 0ne already owns, hand a designed plan to Build.",
+  "version": "0.2.0",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

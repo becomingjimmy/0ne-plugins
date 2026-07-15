@@ -1,7 +1,7 @@
 {
   "name": "0nedoctor",
   "description": "0ne system health check, integrity audit, secret scan, and past-work recall. USE WHEN 0ne doctor, health check, system check, diagnose, self-heal, fix system, integrity check, audit system, check references, scan for secrets, security scan, \"we just worked on\", \"remember when we\", \"didn't we already\".",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "author": {
     "name": "0neOS"
   },

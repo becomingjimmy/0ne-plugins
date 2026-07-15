@@ -1,11 +1,11 @@
 ---
-description: Local video/audio transcription using Parakeet v3. USE WHEN transcribe, transcription, convert video to text, speech to text. Outputs wrapped markdown (.md) to same directory as source, or to a project-prescribed filename.
+description: Local video/audio transcription using Parakeet v3. USE WHEN transcribe, transcription, convert video to text, speech to text. Outputs wrapped markdown (.transcript.md) to same directory as source, or to a project-prescribed filename.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # Transcribe — 0ne Premium Skill
 
-Local video/audio transcription using Parakeet v3. USE WHEN transcribe, transcription, convert video to text, speech to text. Outputs wrapped markdown (.md) to same directory as source, or to a project-prescribed filename.
+Local video/audio transcription using Parakeet v3. USE WHEN transcribe, transcription, convert video to text, speech to text. Outputs wrapped markdown (.transcript.md) to same directory as source, or to a project-prescribed filename.
 
 ## Activation Check
 

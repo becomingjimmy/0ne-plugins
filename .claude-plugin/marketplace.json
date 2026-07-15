@@ -119,12 +119,23 @@
     },
     {
       "name": "0necontext",
-      "description": "Build and load the AI's context layer — the architectural memory of who {PRINCIPAL_NAME} is, what his business is, and how it operates. USE WHEN /0neContext, /0neContext build, /0neContext commitments, build my context, build context, context interview, north star, master prompt, business brain, business framework, customer lifecycle map, process assessment, RACI map, AI-fy my commitments, inventory my commitments, list my commitments, build my commitments, turn my commitments into projects, OR for substantive work that needs business context, strategy context, personal context, thought partnering, 1-3-1 decisions, marketing, campaigns, offer docs, planning, goal setting, business decisions, pricing, competitors, ICP analysis, team discussions, fulfillment, process improvement.",
-      "version": "0.3.2",
+      "description": "Build and load the AI's context layer — the architectural memory of who {PRINCIPAL_NAME} is, what his business is, and how it operates. USE WHEN /0neContext, /0neContext build, /0neContext commitments, build my context, build context, context interview, north star, master prompt, business brain, business framework, customer lifecycle map, process assessment, RACI map, AI-fy my commitments, inventory my commitments, list my commitments, build my commitments, turn my commitments into projects, /0neContext fridge, build my tech stack, capture my tools, what tools do I own, OR for substantive work that needs business context, strategy context, personal context, thought partnering, 1-3-1 decisions, marketing, campaigns, offer docs, planning, goal setting, business decisions, pricing, competitors, ICP analysis, team discussions, fulfillment, process improvement.",
+      "version": "0.4.0",
       "author": {
         "name": "0neOS"
       },
       "source": "./plugins/0necontext",
+      "category": "general",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "0necopilot",
+      "description": "Live session copilot — Zoom/mic tap → Deepgram STT → live orchestrator → operator surface + prospect artifact. USE WHEN paid session, hiring interview, sales call, sales discovery, discovery call, podcast interview, coaching call, 1-on-1, team standup, live copilot, real-time coaching, live transcription, live prompt, listen along, run copilot, start copilot, /0neCopilot, new mode, mode design, session copilot.",
+      "version": "1.2.1",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/0necopilot",
       "category": "general",
       "homepage": "https://0neos.com"
     },
@@ -142,7 +153,7 @@
     {
       "name": "0nedoctor",
       "description": "0ne system health check, integrity audit, secret scan, and past-work recall. USE WHEN 0ne doctor, health check, system check, diagnose, self-heal, fix system, integrity check, audit system, check references, scan for secrets, security scan, \"we just worked on\", \"remember when we\", \"didn't we already\".",
-      "version": "2.0.3",
+      "version": "2.1.0",
       "author": {
         "name": "0neOS"
       },
@@ -195,6 +206,17 @@
       "homepage": "https://0neos.com"
     },
     {
+      "name": "0neplan",
+      "description": "The plan before the plan — a thought partner that finds the real goal before designing a build. USE WHEN /0nePlan, \"0ne plan\", \"help me plan this build\", \"design a solution for\", \"plan out this app\", \"I have an idea I want to plan\", \"think through this build with me\", \"what's the best way to build\", \"architect this for me\", OR before handing a build to plan mode / Algorithm mode. Runs a four-phase arc: extract the true goal, brainstorm solutions, match to what 0ne already owns, hand a designed plan to Build.",
+      "version": "0.2.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/0neplan",
+      "category": "general",
+      "homepage": "https://0neos.com"
+    },
+    {
       "name": "0neproject",
       "description": "Create a new project with proper infrastructure. USE WHEN starting a new project, \"let's build\", \"let's start\", \"new project for\", \"kick off a project\", or whenever {PRINCIPAL_NAME} is beginning multi-session work. Auto-creates the project folder under 02 - Projects/ with CLAUDE.md and PROJECT-STATE.md.",
       "version": "1.1.3",
@@ -230,7 +252,7 @@
     {
       "name": "0nesync",
       "description": "Daily execution engine. The constraint router plus the DayOS catch-up cycle. USE WHEN {PRINCIPAL_NAME} says /0neSync, asks \"what now\", \"what should I work on\", \"what's next\", wants to capture a task, clear the inbox, mark something done, run a weekly review, set or change the constraint, or check what he should be doing.",
-      "version": "3.1.2",
+      "version": "3.2.0",
       "author": {
         "name": "0neOS"
       },
@@ -461,7 +483,7 @@
     {
       "name": "research",
       "description": "Fabric-pattern content extraction AND open-web multi-source cited research. USE WHEN user says 'extract wisdom', 'extract alpha', 'analyze content', 'analyze this article/video/transcript', 'use fabric', 'can't get this content', 'research X', 'find sources on X', 'what does the literature say about X', 'extensive research', OR points at a piece of content and asks to process/summarize/extract from it, OR asks an open question that needs cited multi-source synthesis. Extensive mode now runs the full 5-stage pipeline (Scope → 11-angle multi-LLM search → fetch+extract → 3-vote verify → Opus synthesis) — absorbed from /deep-research. DO NOT USE FOR: due diligence / OSINT / background checks (use OSINT skill).",
-      "version": "1.1.1",
+      "version": "1.3.0",
       "author": {
         "name": "0neOS"
       },
@@ -493,8 +515,8 @@
     },
     {
       "name": "transcribe",
-      "description": "Local video/audio transcription using Parakeet v3. USE WHEN transcribe, transcription, convert video to text, speech to text. Outputs wrapped markdown (.md) to same directory as source, or to a project-prescribed filename.",
-      "version": "1.1.0",
+      "description": "Local video/audio transcription using Parakeet v3. USE WHEN transcribe, transcription, convert video to text, speech to text. Outputs wrapped markdown (.transcript.md) to same directory as source, or to a project-prescribed filename.",
+      "version": "1.2.0",
       "author": {
         "name": "0neOS"
       },
