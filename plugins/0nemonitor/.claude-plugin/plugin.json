@@ -1,0 +1,10 @@
+{
+  "name": "0nemonitor",
+  "description": "Track and grade the things you've built, automations, skills, apps, processes, and get told where to go back to when they aren't working. Keeps a registry at `05 - Context/Monitors.md`. USE WHEN start monitoring this, add this to what i track, capture a baseline, record the before, grade this automation, did my automation work, is this thing still running, how is that skill performing, what should i fix next, build me a watcher for this, alert me if this stops. DO NOT USE FOR checking whether your website or cloud app is up (use /0neCloudStatus), or checking 0ne system health (use /0neDoctor).",
+  "version": "0.2.0",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

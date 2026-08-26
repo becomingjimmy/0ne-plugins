@@ -1,11 +1,11 @@
 ---
-description: Live session copilot — Zoom/mic tap → Deepgram STT → live orchestrator → operator surface + prospect artifact. USE WHEN paid session, hiring interview, sales call, sales discovery, discovery call, podcast interview, coaching call, 1-on-1, team standup, live copilot, real-time coaching, live transcription, live prompt, listen along, run copilot, start copilot, /0neCopilot, new mode, mode design, session copilot.
+description: Live session copilot, Zoom/mic tap → Deepgram STT → live orchestrator → operator surface + prospect artifact. USE WHEN paid session, hiring interview, sales call, sales discovery, discovery call, podcast interview, coaching call, 1-on-1, team standup, live copilot, real-time coaching, live transcription, live prompt, listen along, run copilot, start copilot, /0neCopilot, new mode, mode design, session copilot.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # 0neCopilot — 0ne Premium Skill
 
-Live session copilot — Zoom/mic tap → Deepgram STT → live orchestrator → operator surface + prospect artifact. USE WHEN paid session, hiring interview, sales call, sales discovery, discovery call, podcast interview, coaching call, 1-on-1, team standup, live copilot, real-time coaching, live transcription, live prompt, listen along, run copilot, start copilot, /0neCopilot, new mode, mode design, session copilot.
+Live session copilot, Zoom/mic tap → Deepgram STT → live orchestrator → operator surface + prospect artifact. USE WHEN paid session, hiring interview, sales call, sales discovery, discovery call, podcast interview, coaching call, 1-on-1, team standup, live copilot, real-time coaching, live transcription, live prompt, listen along, run copilot, start copilot, /0neCopilot, new mode, mode design, session copilot.
 
 ## Activation Check
 

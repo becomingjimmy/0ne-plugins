@@ -10,7 +10,7 @@
     {
       "name": "0neadvisormaker",
       "description": "Create AI advisors from expert content OR software documentation. USE WHEN creating advisor, building persona, advisor from transcript, advisor from content, new advisor, make advisor, advisor setup, advisor for [API/SDK/product], software advisor, API advisor, knowledge base for [product].",
-      "version": "2.4.3",
+      "version": "2.6.0",
       "author": {
         "name": "0neOS"
       },
@@ -31,8 +31,8 @@
     },
     {
       "name": "0neapirecon",
-      "description": "Reverse-engineer an undocumented internal web API into a typed CLI + skill. USE WHEN /0neApiRecon, recon api, reverse engineer api, no public api, internal api, capture browser traffic, build client for [product], scrape internal api, intercept browser requests, no open api for X, the public api doesnt support, reverse engineer the website, sniff network requests, undocumented api, hidden api, build my own client for, automate [product] without an api.",
-      "version": "0.3.0",
+      "description": "Reverse-engineer an undocumented internal web API into a typed CLI + skill. USE WHEN /0neApiRecon, recon api, reverse engineer api, no public api, internal api, capture browser traffic, build client for [product], scrape internal api, intercept browser requests, no open api for X, the public api doesnt support, reverse engineer the website, sniff network requests, undocumented api, hidden api, build my own client for, automate [product] without an api, polish my recon CLI, re-recon, the API changed, fix my recon CLI, my recon CLI is broken, the recon CLI stopped working, re-capture the API.",
+      "version": "0.10.0",
       "author": {
         "name": "0neOS"
       },
@@ -41,8 +41,19 @@
       "homepage": "https://0neos.com"
     },
     {
+      "name": "0nebuild",
+      "description": "The build after the plan. Takes an already-DESIGNED solution and builds it the right way, right tier on the autonomy dial, manual-first, verified, then shipped running. USE WHEN /0neBuild, \"build this solution\", \"build my plan\", \"build from my plan\", \"build this design\", \"turn my plan into a skill/agent/app\", \"make this build real\", OR right after /0nePlan hands off a Solution Design. DO NOT USE FOR scaffolding a brand-new empty project (use /0neProject), publishing existing cloud changes (use /0neCloudPublish), or scaffolding a raw skill from scratch (use /CreateSkill) - 0neBuild fires on an already-decided WHAT.",
+      "version": "0.3.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/0nebuild",
+      "category": "general",
+      "homepage": "https://0neos.com"
+    },
+    {
       "name": "0neclone",
-      "description": "Step 6 clone-routing parent skill. Given a `/0neSource`-shaped folder at `03 - Knowledge/<Name>/`, route to the right child (`/Synthesize` for Playbook, `/0neAdvisorMaker` for Advisor, `/0neCouncil` for Council) and land the resulting artifact. Also scaffolds `03 - Knowledge/<Name>/` knowledge folders on natural-language request. USE WHEN {PRINCIPAL_NAME} says /0neClone, \"clone [X]\", \"make a playbook from [X]\", \"build an advisor from [X]\", \"convene a council on [X]\", \"set up a knowledge folder for [X]\", \"turn this source into a playbook\", or otherwise wants to CLONE raw source into a usable artifact (playbook, advisor, or council). Step 6 of 0neOS Roadmap V7 — sits between `/0neSource` (Step 5 gather) and downstream skill-build / execution steps.",
+      "description": "Step 6 clone-routing parent skill. Given a `/0neSource`-shaped folder at `03 - Knowledge/<Name>/`, route to the right child (`/Synthesize` for Playbook, `/0neAdvisorMaker` for Advisor, `/0neCouncil` for Council) and land the resulting artifact. Also scaffolds `03 - Knowledge/<Name>/` knowledge folders on natural-language request. USE WHEN {PRINCIPAL_NAME} says /0neClone, \"clone [X]\", \"make a playbook from [X]\", \"build an advisor from [X]\", \"convene a council on [X]\", \"set up a knowledge folder for [X]\", \"turn this source into a playbook\", or otherwise wants to CLONE raw source into a usable artifact (playbook, advisor, or council). Step 6 of 0neOS Roadmap V7, sits between `/0neSource` (Step 5 gather) and downstream skill-build / execution steps.",
       "version": "0.1.1",
       "author": {
         "name": "0neOS"
@@ -54,7 +65,7 @@
     {
       "name": "0necloudmerge",
       "description": "Merge a standalone app into your 0ne Cloud as a mini-app. USE WHEN merging app, refactor app for cloud, migrate to cloud, integrate app, fold into cloud, mini-app conversion, move app to cloud.",
-      "version": "1.2.1",
+      "version": "1.3.0",
       "author": {
         "name": "0neOS"
       },
@@ -76,7 +87,7 @@
     {
       "name": "0necloudpublish",
       "description": "Publish your changes to make them live. USE WHEN publish, go live, make it live, push changes, ship it, deploy, put it online.",
-      "version": "2.5.1",
+      "version": "2.6.0",
       "author": {
         "name": "0neOS"
       },
@@ -119,8 +130,8 @@
     },
     {
       "name": "0necontext",
-      "description": "Build and load the AI's context layer — the architectural memory of who {PRINCIPAL_NAME} is, what his business is, and how it operates. USE WHEN /0neContext, /0neContext build, /0neContext commitments, build my context, build context, context interview, north star, master prompt, business brain, business framework, customer lifecycle map, process assessment, RACI map, AI-fy my commitments, inventory my commitments, list my commitments, build my commitments, turn my commitments into projects, /0neContext fridge, build my tech stack, capture my tools, what tools do I own, OR for substantive work that needs business context, strategy context, personal context, thought partnering, 1-3-1 decisions, marketing, campaigns, offer docs, planning, goal setting, business decisions, pricing, competitors, ICP analysis, team discussions, fulfillment, process improvement.",
-      "version": "0.4.0",
+      "description": "Build and load the AI's context layer, the architectural memory of who {PRINCIPAL_NAME} is, what his business is, and how it operates. USE WHEN /0neContext, /0neContext build, /0neContext commitments, build my context, build context, context interview, north star, master prompt, business brain, business framework, customer lifecycle map, process assessment, RACI map, AI-fy my commitments, inventory my commitments, list my commitments, build my commitments, turn my commitments into projects, /0neContext fridge, build my tech stack, capture my tools, what tools do I own, OR for substantive work that needs business context, strategy context, personal context, thought partnering, 1-3-1 decisions, marketing, campaigns, offer docs, planning, goal setting, business decisions, pricing, competitors, ICP analysis, team discussions, fulfillment, process improvement.",
+      "version": "0.5.0",
       "author": {
         "name": "0neOS"
       },
@@ -130,7 +141,7 @@
     },
     {
       "name": "0necopilot",
-      "description": "Live session copilot — Zoom/mic tap → Deepgram STT → live orchestrator → operator surface + prospect artifact. USE WHEN paid session, hiring interview, sales call, sales discovery, discovery call, podcast interview, coaching call, 1-on-1, team standup, live copilot, real-time coaching, live transcription, live prompt, listen along, run copilot, start copilot, /0neCopilot, new mode, mode design, session copilot.",
+      "description": "Live session copilot, Zoom/mic tap → Deepgram STT → live orchestrator → operator surface + prospect artifact. USE WHEN paid session, hiring interview, sales call, sales discovery, discovery call, podcast interview, coaching call, 1-on-1, team standup, live copilot, real-time coaching, live transcription, live prompt, listen along, run copilot, start copilot, /0neCopilot, new mode, mode design, session copilot.",
       "version": "1.2.1",
       "author": {
         "name": "0neOS"
@@ -152,8 +163,8 @@
     },
     {
       "name": "0nedoctor",
-      "description": "0ne system health check, integrity audit, secret scan, and past-work recall. USE WHEN 0ne doctor, health check, system check, diagnose, self-heal, fix system, integrity check, audit system, check references, scan for secrets, security scan, \"we just worked on\", \"remember when we\", \"didn't we already\".",
-      "version": "2.1.0",
+      "description": "0ne system health check, integrity audit, multi-install detection, secret scan, and past-work recall. USE WHEN 0ne doctor, health check, system check, diagnose, self-heal, fix system, integrity check, audit system, check references, scan for secrets, security scan, \"how many installs do I have\", \"duplicate install\", \"ghost install\", \"which install am I running\", \"we just worked on\", \"remember when we\", \"didn't we already\".",
+      "version": "2.6.0",
       "author": {
         "name": "0neOS"
       },
@@ -163,7 +174,7 @@
     },
     {
       "name": "0neespanol",
-      "description": "Switch the entire 0ne system to Spanish — language preference for One's responses plus Edge TTS voice (Ramona). USE WHEN switch to spanish, change to spanish, cambiar a español, español, espanol, spanish mode, /0neEspañol, /0neEspanol, set language spanish, voz en español.",
+      "description": "Switch the entire 0ne system to Spanish, language preference for One's responses plus Edge TTS voice (Ramona). USE WHEN switch to spanish, change to spanish, cambiar a español, español, espanol, spanish mode, /0neEspañol, /0neEspanol, set language spanish, voz en español.",
       "version": "1.0.1",
       "author": {
         "name": "0neOS"
@@ -184,6 +195,17 @@
       "homepage": "https://0neos.com"
     },
     {
+      "name": "0nemcp",
+      "description": "Evaluate an MCP server BEFORE you install it, and audit the MCPs you already run. Tells you in plain language what it will cost you and whether to install it, and builds the CLI replacement when that is the better answer. USE WHEN should I install this mcp, is this mcp safe, evaluate this mcp, audit my mcps, what mcps am I running, is an mcp slowing me down, check this mcp server, /0neMCP, is this mcp worth it, mcp cost, mcp process audit, mcp orphans. DO NOT USE FOR a full 0ne system health check or integrity audit (use /0neDoctor), or for deep-diving a whole agent framework or harness to decide whether to adopt it (use /0neAgentAnalysis). This skill fires on ONE named MCP server, or on the set of MCP servers currently registered.",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/0nemcp",
+      "category": "general",
+      "homepage": "https://0neos.com"
+    },
+    {
       "name": "0nememory",
       "description": "Deep context loader for One. USE WHEN doing substantive work that needs business context, strategy context, personal context, thought partnering, 1-3-1 decisions, marketing, campaigns, offer docs, planning, goal setting, business decisions, pricing, competitors, ICP analysis, team discussions, fulfillment, process improvement, or any task where deeper understanding of {PRINCIPAL_NAME} would improve output.",
       "version": "1.0.2",
@@ -191,6 +213,17 @@
         "name": "0neOS"
       },
       "source": "./plugins/0nememory",
+      "category": "general",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "0nemonitor",
+      "description": "Track and grade the things you've built, automations, skills, apps, processes, and get told where to go back to when they aren't working. Keeps a registry at `05 - Context/Monitors.md`. USE WHEN start monitoring this, add this to what i track, capture a baseline, record the before, grade this automation, did my automation work, is this thing still running, how is that skill performing, what should i fix next, build me a watcher for this, alert me if this stops. DO NOT USE FOR checking whether your website or cloud app is up (use /0neCloudStatus), or checking 0ne system health (use /0neDoctor).",
+      "version": "0.2.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/0nemonitor",
       "category": "general",
       "homepage": "https://0neos.com"
     },
@@ -207,8 +240,8 @@
     },
     {
       "name": "0neplan",
-      "description": "The plan before the plan — a thought partner that finds the real goal before designing a build. USE WHEN /0nePlan, \"0ne plan\", \"help me plan this build\", \"design a solution for\", \"plan out this app\", \"I have an idea I want to plan\", \"think through this build with me\", \"what's the best way to build\", \"architect this for me\", OR before handing a build to plan mode / Algorithm mode. Runs a four-phase arc: extract the true goal, brainstorm solutions, match to what 0ne already owns, hand a designed plan to Build.",
-      "version": "0.2.0",
+      "description": "The plan before the plan, a thought partner that finds the real goal before designing a build. USE WHEN /0nePlan, \"0ne plan\", \"help me plan this build\", \"design a solution for\", \"plan out this app\", \"I have an idea I want to plan\", \"think through this build with me\", \"what's the best way to build\", \"architect this for me\", OR before handing a build to plan mode / Algorithm mode. Runs a four-phase arc: extract the true goal, brainstorm solutions, match to what 0ne already owns, hand a designed plan to Build.",
+      "version": "0.7.3",
       "author": {
         "name": "0neOS"
       },
@@ -219,7 +252,7 @@
     {
       "name": "0neproject",
       "description": "Create a new project with proper infrastructure. USE WHEN starting a new project, \"let's build\", \"let's start\", \"new project for\", \"kick off a project\", or whenever {PRINCIPAL_NAME} is beginning multi-session work. Auto-creates the project folder under 02 - Projects/ with CLAUDE.md and PROJECT-STATE.md.",
-      "version": "1.1.3",
+      "version": "1.2.0",
       "author": {
         "name": "0neOS"
       },
@@ -240,7 +273,7 @@
     },
     {
       "name": "0nesource",
-      "description": "Step 5 source-gathering parent skill. Given a constraint and a one-line ask, route to the right child tool (Download / Research extensive / Transcribe / OSINT / Apify / firecrawl / 0neApiRecon) and land raw material in 03 - Knowledge/<Name>/Source Material/. USE WHEN {PRINCIPAL_NAME} says /0neSource, \"source [X]\", \"gather expert content\", \"capture this podcast\", \"load up [expert] knowledge\", \"pull material on [topic]\", \"build a source folder for [expert/product]\", \"start sourcing for my constraint\", \"scrape this site for source material\", \"interview my senior employee\", \"camcorder this\", or otherwise wants to GATHER raw expert/product/internal material (not synthesize, not build an advisor — that's Step 6 Clone).",
+      "description": "Step 5 source-gathering parent skill. Given a constraint and a one-line ask, route to the right child tool (Download / Research extensive / Transcribe / OSINT / Apify / firecrawl / 0neApiRecon) and land raw material in 03 - Knowledge/<Name>/Source Material/. USE WHEN {PRINCIPAL_NAME} says /0neSource, \"source [X]\", \"gather expert content\", \"capture this podcast\", \"load up [expert] knowledge\", \"pull material on [topic]\", \"build a source folder for [expert/product]\", \"start sourcing for my constraint\", \"scrape this site for source material\", \"interview my senior employee\", \"camcorder this\", or otherwise wants to GATHER raw expert/product/internal material (not synthesize, not build an advisor, that's Step 6 Clone).",
       "version": "1.1.0",
       "author": {
         "name": "0neOS"
@@ -274,7 +307,7 @@
     {
       "name": "0neupdate",
       "description": "Check for and apply 0ne system updates. USE WHEN update 0ne, update my 0ne, system update, check for updates, upgrade, upgrade 0ne, /0neUpgrade.",
-      "version": "2.1.1",
+      "version": "2.4.0",
       "author": {
         "name": "0neOS"
       },
@@ -285,11 +318,22 @@
     {
       "name": "0neupgrade",
       "description": "Check for and apply 0ne system updates. USE WHEN upgrade, update 0ne, system update, check for updates, upgrade 0ne.",
-      "version": "2.0.1",
+      "version": "2.2.0",
       "author": {
         "name": "0neOS"
       },
       "source": "./plugins/0neupgrade",
+      "category": "general",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "0nevisualize",
+      "description": "Turn something that already exists, a doc, a folder, a workflow, a pipeline, a dataset, an org chart, a process, into a self-contained interactive HTML artifact you can open in a browser. USE WHEN visualize this doc, visualize this workflow, visualize this folder, turn this into an html visual, make an interactive view of this, render this pipeline as a page, build a visual artifact from these files, show me this process as a page i can open, make this readable at a glance, i want to see this system. DO NOT USE FOR generating images, pictures or illustrations (use ImageGen), or for deck/doc diagram assets like mermaid, infographics and header art (use Art).",
+      "version": "0.1.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/0nevisualize",
       "category": "general",
       "homepage": "https://0neos.com"
     },
@@ -328,8 +372,8 @@
     },
     {
       "name": "browser",
-      "description": "Debug-first browser automation with always-on visibility. Console logs, network requests, and errors captured by default. USE WHEN browser, screenshot, debug web, verify UI, troubleshoot frontend.",
-      "version": "2.0.1",
+      "description": "Debug-first browser automation via the `cdp` CLI with always-on full visibility (console, network, performance, DOM) against {PRINCIPAL_NAME}'s real signed-in session. USE WHEN browser, screenshot, debug web, verify UI, troubleshoot frontend, check a deploy, inspect console/network, performance trace, lighthouse.",
+      "version": "4.2.0",
       "author": {
         "name": "0neOS"
       },
@@ -351,7 +395,7 @@
     {
       "name": "createcli",
       "description": "Generate TypeScript CLIs. USE WHEN create CLI, build CLI, command-line tool. SkillSearch('createcli') for docs.",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "author": {
         "name": "0neOS"
       },
@@ -362,7 +406,7 @@
     {
       "name": "createskill",
       "description": "Create and validate skills. USE WHEN create skill, new skill, skill structure, canonicalize. SkillSearch('createskill') for docs.",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "author": {
         "name": "0neOS"
       },
@@ -384,7 +428,7 @@
     {
       "name": "download",
       "description": "Download videos, transcribe, and summarize. USE WHEN download video, transcribe video, youtube, video to text, summarize video.",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "author": {
         "name": "0neOS"
       },
@@ -394,8 +438,8 @@
     },
     {
       "name": "end",
-      "description": "End session gracefully. USE WHEN /end, ending session, closing terminal, wrapping up. One-shot consolidated output — Session Summary + Handoff Prompt + (conditional) Improvement Opportunities + (conditional) Decision OS proposals + voice line. No blocking questions; user accepts improvements/decisions on next message via brainless pick syntax.",
-      "version": "1.4.0",
+      "description": "End session gracefully. USE WHEN /end, ending session, closing terminal, wrapping up. One-shot consolidated output, Session Summary + Handoff Prompt + (conditional) Improvement Opportunities + (conditional) Decision OS proposals + voice line. No blocking questions; user accepts improvements/decisions on next message via brainless pick syntax.",
+      "version": "1.15.0",
       "author": {
         "name": "0neOS"
       },
@@ -416,8 +460,8 @@
     },
     {
       "name": "ghl",
-      "description": "GoHighLevel API ACTION layer (credentials, CLI, quick recipes). Pairs with the GHL software advisor at `03 - Knowledge/GHL/` (KNOWLEDGE layer — verbatim spec for all ~573 endpoints). USE WHEN ghl, gohighlevel, crm, contacts, send email, send sms, workflows, trigger links, custom fields, opportunities, deals, pipelines, calendars, appointments, payments, invoices, products, campaigns, social media.",
-      "version": "2.1.2",
+      "description": "GoHighLevel API ACTION layer (credentials, CLI, quick recipes). Pairs with the GHL software advisor at `03 - Knowledge/GHL/` (KNOWLEDGE layer, verbatim spec for all v2 + v3 endpoints). USE WHEN ghl, gohighlevel, crm, contacts, send email, send sms, workflows, trigger links, custom fields, opportunities, deals, pipelines, calendars, appointments, payments, invoices, products, campaigns, social media.",
+      "version": "2.6.1",
       "author": {
         "name": "0neOS"
       },
@@ -450,7 +494,7 @@
     {
       "name": "imagegen",
       "description": "Generate images using Gemini API. USE WHEN generate image, create image, image of, picture of, illustration of, draw, visualize, /image.",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "author": {
         "name": "0neOS"
       },
@@ -482,8 +526,8 @@
     },
     {
       "name": "research",
-      "description": "Fabric-pattern content extraction AND open-web multi-source cited research. USE WHEN user says 'extract wisdom', 'extract alpha', 'analyze content', 'analyze this article/video/transcript', 'use fabric', 'can't get this content', 'research X', 'find sources on X', 'what does the literature say about X', 'extensive research', OR points at a piece of content and asks to process/summarize/extract from it, OR asks an open question that needs cited multi-source synthesis. Extensive mode now runs the full 5-stage pipeline (Scope → 11-angle multi-LLM search → fetch+extract → 3-vote verify → Opus synthesis) — absorbed from /deep-research. DO NOT USE FOR: due diligence / OSINT / background checks (use OSINT skill).",
-      "version": "1.3.0",
+      "description": "Fabric-pattern content extraction AND open-web multi-source cited research. USE WHEN user says 'extract wisdom', 'extract alpha', 'analyze content', 'analyze this article/video/transcript', 'use fabric', 'can't get this content', 'research X', 'find sources on X', 'what does the literature say about X', 'extensive research', OR points at a piece of content and asks to process/summarize/extract from it, OR asks an open question that needs cited multi-source synthesis. Extensive mode now runs the full 5-stage pipeline (Scope → 11-angle multi-LLM search → fetch+extract → 3-vote verify → Opus synthesis), absorbed from /deep-research. INVOKE WITH the mode word alone on line 1, blank line, then the question, args must be \"extensive\\n\\n<question>\" (or quick/standard/alpha); a mode word merged into the question line (\"extensive research: ...\") has been observed to reach the fork as EMPTY args. DO NOT USE FOR: due diligence / OSINT / background checks (use OSINT skill).",
+      "version": "1.5.0",
       "author": {
         "name": "0neOS"
       },
@@ -516,7 +560,7 @@
     {
       "name": "transcribe",
       "description": "Local video/audio transcription using Parakeet v3. USE WHEN transcribe, transcription, convert video to text, speech to text. Outputs wrapped markdown (.transcript.md) to same directory as source, or to a project-prescribed filename.",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "author": {
         "name": "0neOS"
       },

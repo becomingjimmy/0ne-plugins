@@ -1,0 +1,10 @@
+{
+  "name": "0nemcp",
+  "description": "Evaluate an MCP server BEFORE you install it, and audit the MCPs you already run. Tells you in plain language what it will cost you and whether to install it, and builds the CLI replacement when that is the better answer. USE WHEN should I install this mcp, is this mcp safe, evaluate this mcp, audit my mcps, what mcps am I running, is an mcp slowing me down, check this mcp server, /0neMCP, is this mcp worth it, mcp cost, mcp process audit, mcp orphans. DO NOT USE FOR a full 0ne system health check or integrity audit (use /0neDoctor), or for deep-diving a whole agent framework or harness to decide whether to adopt it (use /0neAgentAnalysis). This skill fires on ONE named MCP server, or on the set of MCP servers currently registered.",
+  "version": "1.0.0",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

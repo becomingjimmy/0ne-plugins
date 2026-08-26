@@ -1,11 +1,11 @@
 ---
-description: Switch the entire 0ne system to Spanish — language preference for One's responses plus Edge TTS voice (Ramona). USE WHEN switch to spanish, change to spanish, cambiar a español, español, espanol, spanish mode, /0neEspañol, /0neEspanol, set language spanish, voz en español.
+description: Switch the entire 0ne system to Spanish, language preference for One's responses plus Edge TTS voice (Ramona). USE WHEN switch to spanish, change to spanish, cambiar a español, español, espanol, spanish mode, /0neEspañol, /0neEspanol, set language spanish, voz en español.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # 0neEspanol — 0ne Premium Skill
 
-Switch the entire 0ne system to Spanish — language preference for One's responses plus Edge TTS voice (Ramona). USE WHEN switch to spanish, change to spanish, cambiar a español, español, espanol, spanish mode, /0neEspañol, /0neEspanol, set language spanish, voz en español.
+Switch the entire 0ne system to Spanish, language preference for One's responses plus Edge TTS voice (Ramona). USE WHEN switch to spanish, change to spanish, cambiar a español, español, espanol, spanish mode, /0neEspañol, /0neEspanol, set language spanish, voz en español.
 
 ## Activation Check
 

@@ -1,11 +1,11 @@
 ---
-description: Debug-first browser automation with always-on visibility. Console logs, network requests, and errors captured by default. USE WHEN browser, screenshot, debug web, verify UI, troubleshoot frontend.
+description: Debug-first browser automation via the `cdp` CLI with always-on full visibility (console, network, performance, DOM) against {PRINCIPAL_NAME}'s real signed-in session. USE WHEN browser, screenshot, debug web, verify UI, troubleshoot frontend, check a deploy, inspect console/network, performance trace, lighthouse.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # Browser — 0ne Premium Skill
 
-Debug-first browser automation with always-on visibility. Console logs, network requests, and errors captured by default. USE WHEN browser, screenshot, debug web, verify UI, troubleshoot frontend.
+Debug-first browser automation via the `cdp` CLI with always-on full visibility (console, network, performance, DOM) against {PRINCIPAL_NAME}'s real signed-in session. USE WHEN browser, screenshot, debug web, verify UI, troubleshoot frontend, check a deploy, inspect console/network, performance trace, lighthouse.
 
 ## Activation Check
 

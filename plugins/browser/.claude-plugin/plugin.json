@@ -1,7 +1,7 @@
 {
   "name": "browser",
-  "description": "Debug-first browser automation with always-on visibility. Console logs, network requests, and errors captured by default. USE WHEN browser, screenshot, debug web, verify UI, troubleshoot frontend.",
-  "version": "2.0.1",
+  "description": "Debug-first browser automation via the `cdp` CLI with always-on full visibility (console, network, performance, DOM) against {PRINCIPAL_NAME}'s real signed-in session. USE WHEN browser, screenshot, debug web, verify UI, troubleshoot frontend, check a deploy, inspect console/network, performance trace, lighthouse.",
+  "version": "4.2.0",
   "author": {
     "name": "0neOS"
   },

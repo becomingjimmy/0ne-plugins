@@ -1,0 +1,10 @@
+{
+  "name": "0nevisualize",
+  "description": "Turn something that already exists, a doc, a folder, a workflow, a pipeline, a dataset, an org chart, a process, into a self-contained interactive HTML artifact you can open in a browser. USE WHEN visualize this doc, visualize this workflow, visualize this folder, turn this into an html visual, make an interactive view of this, render this pipeline as a page, build a visual artifact from these files, show me this process as a page i can open, make this readable at a glance, i want to see this system. DO NOT USE FOR generating images, pictures or illustrations (use ImageGen), or for deck/doc diagram assets like mermaid, infographics and header art (use Art).",
+  "version": "0.1.0",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

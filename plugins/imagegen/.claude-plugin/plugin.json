@@ -1,7 +1,7 @@
 {
   "name": "imagegen",
   "description": "Generate images using Gemini API. USE WHEN generate image, create image, image of, picture of, illustration of, draw, visualize, /image.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": {
     "name": "0neOS"
   },

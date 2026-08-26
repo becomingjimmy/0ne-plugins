@@ -1,11 +1,11 @@
 ---
-description: Reverse-engineer an undocumented internal web API into a typed CLI + skill. USE WHEN /0neApiRecon, recon api, reverse engineer api, no public api, internal api, capture browser traffic, build client for [product], scrape internal api, intercept browser requests, no open api for X, the public api doesnt support, reverse engineer the website, sniff network requests, undocumented api, hidden api, build my own client for, automate [product] without an api.
+description: Reverse-engineer an undocumented internal web API into a typed CLI + skill. USE WHEN /0neApiRecon, recon api, reverse engineer api, no public api, internal api, capture browser traffic, build client for [product], scrape internal api, intercept browser requests, no open api for X, the public api doesnt support, reverse engineer the website, sniff network requests, undocumented api, hidden api, build my own client for, automate [product] without an api, polish my recon CLI, re-recon, the API changed, fix my recon CLI, my recon CLI is broken, the recon CLI stopped working, re-capture the API.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # 0neApiRecon — 0ne Premium Skill
 
-Reverse-engineer an undocumented internal web API into a typed CLI + skill. USE WHEN /0neApiRecon, recon api, reverse engineer api, no public api, internal api, capture browser traffic, build client for [product], scrape internal api, intercept browser requests, no open api for X, the public api doesnt support, reverse engineer the website, sniff network requests, undocumented api, hidden api, build my own client for, automate [product] without an api.
+Reverse-engineer an undocumented internal web API into a typed CLI + skill. USE WHEN /0neApiRecon, recon api, reverse engineer api, no public api, internal api, capture browser traffic, build client for [product], scrape internal api, intercept browser requests, no open api for X, the public api doesnt support, reverse engineer the website, sniff network requests, undocumented api, hidden api, build my own client for, automate [product] without an api, polish my recon CLI, re-recon, the API changed, fix my recon CLI, my recon CLI is broken, the recon CLI stopped working, re-capture the API.
 
 ## Activation Check
 

@@ -1,11 +1,11 @@
 ---
-description: GoHighLevel API ACTION layer (credentials, CLI, quick recipes). Pairs with the GHL software advisor at `03 - Knowledge/GHL/` (KNOWLEDGE layer — verbatim spec for all ~573 endpoints). USE WHEN ghl, gohighlevel, crm, contacts, send email, send sms, workflows, trigger links, custom fields, opportunities, deals, pipelines, calendars, appointments, payments, invoices, products, campaigns, social media.
+description: GoHighLevel API ACTION layer (credentials, CLI, quick recipes). Pairs with the GHL software advisor at `03 - Knowledge/GHL/` (KNOWLEDGE layer, verbatim spec for all v2 + v3 endpoints). USE WHEN ghl, gohighlevel, crm, contacts, send email, send sms, workflows, trigger links, custom fields, opportunities, deals, pipelines, calendars, appointments, payments, invoices, products, campaigns, social media.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # GHL — 0ne Premium Skill
 
-GoHighLevel API ACTION layer (credentials, CLI, quick recipes). Pairs with the GHL software advisor at `03 - Knowledge/GHL/` (KNOWLEDGE layer — verbatim spec for all ~573 endpoints). USE WHEN ghl, gohighlevel, crm, contacts, send email, send sms, workflows, trigger links, custom fields, opportunities, deals, pipelines, calendars, appointments, payments, invoices, products, campaigns, social media.
+GoHighLevel API ACTION layer (credentials, CLI, quick recipes). Pairs with the GHL software advisor at `03 - Knowledge/GHL/` (KNOWLEDGE layer, verbatim spec for all v2 + v3 endpoints). USE WHEN ghl, gohighlevel, crm, contacts, send email, send sms, workflows, trigger links, custom fields, opportunities, deals, pipelines, calendars, appointments, payments, invoices, products, campaigns, social media.
 
 ## Activation Check
 

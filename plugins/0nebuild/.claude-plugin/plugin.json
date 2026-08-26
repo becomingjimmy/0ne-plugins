@@ -1,0 +1,10 @@
+{
+  "name": "0nebuild",
+  "description": "The build after the plan. Takes an already-DESIGNED solution and builds it the right way, right tier on the autonomy dial, manual-first, verified, then shipped running. USE WHEN /0neBuild, \"build this solution\", \"build my plan\", \"build from my plan\", \"build this design\", \"turn my plan into a skill/agent/app\", \"make this build real\", OR right after /0nePlan hands off a Solution Design. DO NOT USE FOR scaffolding a brand-new empty project (use /0neProject), publishing existing cloud changes (use /0neCloudPublish), or scaffolding a raw skill from scratch (use /CreateSkill) - 0neBuild fires on an already-decided WHAT.",
+  "version": "0.3.0",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}
