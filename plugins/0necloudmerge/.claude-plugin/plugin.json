@@ -1,7 +1,7 @@
 {
   "name": "0necloudmerge",
   "description": "Merge a standalone app into your 0ne Cloud as a mini-app. USE WHEN merging app, refactor app for cloud, migrate to cloud, integrate app, fold into cloud, mini-app conversion, move app to cloud.",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "author": {
     "name": "0neOS"
   },

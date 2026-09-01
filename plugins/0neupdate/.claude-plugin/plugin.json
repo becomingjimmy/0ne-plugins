@@ -1,7 +1,7 @@
 {
   "name": "0neupdate",
   "description": "Check for and apply 0ne system updates. USE WHEN update 0ne, update my 0ne, system update, check for updates, upgrade, upgrade 0ne, /0neUpgrade.",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "author": {
     "name": "0neOS"
   },

@@ -1,0 +1,10 @@
+{
+  "name": "0nebookmarklet",
+  "description": "Turn a sentence into a permanent one-click browser tool. Builds a bookmarklet, tests it, and hands back a branded drag-to-install page. USE WHEN bookmarklet, make me a bookmarklet, browser button, one click tool, bookmarks bar, tiny browser tool, automate this page, button that does, save this page as, tool for this website, i keep doing this on every page.",
+  "version": "1.0.0",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}

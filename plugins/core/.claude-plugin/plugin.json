@@ -1,7 +1,7 @@
 {
   "name": "core",
   "description": "Personal AI Infrastructure core. AUTO-LOADS at session start. USE WHEN any session begins OR user asks about identity, response format, contacts, stack preferences, security protocols, architecture tracking, or founding principles.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": {
     "name": "0neOS"
   },
