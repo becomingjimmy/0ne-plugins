@@ -43,7 +43,7 @@
     {
       "name": "0nebookmarklet",
       "description": "Turn a sentence into a permanent one-click browser tool. Builds a bookmarklet, tests it, and hands back a branded drag-to-install page. USE WHEN bookmarklet, make me a bookmarklet, browser button, one click tool, bookmarks bar, tiny browser tool, automate this page, button that does, save this page as, tool for this website, i keep doing this on every page.",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "author": {
         "name": "0neOS"
       },
@@ -450,7 +450,7 @@
     {
       "name": "end",
       "description": "End session gracefully. USE WHEN /end, ending session, closing terminal, wrapping up. One-shot consolidated output, Session Summary + Handoff Prompt + (conditional) Improvement Opportunities + (conditional) Decision OS proposals + voice line. No blocking questions; user accepts improvements/decisions on next message via brainless pick syntax.",
-      "version": "1.20.1",
+      "version": "1.21.0",
       "author": {
         "name": "0neOS"
       },
