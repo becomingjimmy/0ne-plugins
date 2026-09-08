@@ -1,7 +1,7 @@
 {
   "name": "0necopilot",
-  "description": "Live session copilot, Zoom/mic tap → Deepgram STT → live orchestrator → operator surface + prospect artifact. USE WHEN paid session, hiring interview, sales call, sales discovery, discovery call, podcast interview, coaching call, 1-on-1, team standup, live copilot, real-time coaching, live transcription, live prompt, listen along, run copilot, start copilot, /0neCopilot, new mode, mode design, session copilot.",
-  "version": "1.4.0",
+  "description": "Live session copilot. Taps Zoom or a room mic, transcribes both sides, and runs a turn-by-turn orchestrator that feeds you the next question live. USE WHEN run copilot, start copilot, /0neCopilot, live copilot, listen to this call, listen along, real-time coaching, live transcription, live prompt during a call, session copilot, paid session, sales call, sales discovery, discovery call, hiring interview, podcast interview, coaching call, 1-on-1, team standup, in-person interview, offline mode, room mic, capture this conversation, new mode, mode design. DO NOT USE FOR building or synthesizing the context layer itself (use /0neContext, which OWNS \"interview me\", \"context interview\" and \"build my context\" and calls this skill for the voice leg). DO NOT USE FOR transcribing an existing recording or video file (use /Transcribe or /Download): this skill captures LIVE audio and is useless on a file that already exists.",
+  "version": "1.14.0",
   "author": {
     "name": "0neOS"
   },

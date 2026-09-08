@@ -43,7 +43,7 @@
     {
       "name": "0nebookmarklet",
       "description": "Turn a sentence into a permanent one-click browser tool. Builds a bookmarklet, tests it, and hands back a branded drag-to-install page. USE WHEN bookmarklet, make me a bookmarklet, browser button, one click tool, bookmarks bar, tiny browser tool, automate this page, button that does, save this page as, tool for this website, i keep doing this on every page.",
-      "version": "1.2.0",
+      "version": "1.2.2",
       "author": {
         "name": "0neOS"
       },
@@ -142,7 +142,7 @@
     {
       "name": "0necontext",
       "description": "Build and load the AI's context layer, the architectural memory of who {PRINCIPAL_NAME} is, what his business is, and how it operates. USE WHEN /0neContext, /0neContext build, /0neContext commitments, build my context, build context, context interview, north star, master prompt, business brain, business framework, customer lifecycle map, process assessment, RACI map, AI-fy my commitments, inventory my commitments, list my commitments, build my commitments, turn my commitments into projects, /0neContext fridge, build my tech stack, capture my tools, what tools do I own, OR for substantive work that needs business context, strategy context, personal context, thought partnering, 1-3-1 decisions, marketing, campaigns, offer docs, planning, goal setting, business decisions, pricing, competitors, ICP analysis, team discussions, fulfillment, process improvement.",
-      "version": "0.5.1",
+      "version": "0.5.2",
       "author": {
         "name": "0neOS"
       },
@@ -152,8 +152,8 @@
     },
     {
       "name": "0necopilot",
-      "description": "Live session copilot, Zoom/mic tap → Deepgram STT → live orchestrator → operator surface + prospect artifact. USE WHEN paid session, hiring interview, sales call, sales discovery, discovery call, podcast interview, coaching call, 1-on-1, team standup, live copilot, real-time coaching, live transcription, live prompt, listen along, run copilot, start copilot, /0neCopilot, new mode, mode design, session copilot.",
-      "version": "1.4.0",
+      "description": "Live session copilot. Taps Zoom or a room mic, transcribes both sides, and runs a turn-by-turn orchestrator that feeds you the next question live. USE WHEN run copilot, start copilot, /0neCopilot, live copilot, listen to this call, listen along, real-time coaching, live transcription, live prompt during a call, session copilot, paid session, sales call, sales discovery, discovery call, hiring interview, podcast interview, coaching call, 1-on-1, team standup, in-person interview, offline mode, room mic, capture this conversation, new mode, mode design. DO NOT USE FOR building or synthesizing the context layer itself (use /0neContext, which OWNS \"interview me\", \"context interview\" and \"build my context\" and calls this skill for the voice leg). DO NOT USE FOR transcribing an existing recording or video file (use /Transcribe or /Download): this skill captures LIVE audio and is useless on a file that already exists.",
+      "version": "1.14.0",
       "author": {
         "name": "0neOS"
       },
@@ -173,9 +173,20 @@
       "homepage": "https://0neos.com"
     },
     {
+      "name": "0nedesignsystem",
+      "description": "Scaffold a design system into any codebase, semantic tokens, base styles, a live reference page, and the agent instruction block that makes agents actually obey it. Seeds 0ne's brand on 0ne properties and ASKS for the client's brand on a client site. Retrofits onto existing code via a backwards-compatible alias layer. USE WHEN design system, set up a design system, design tokens, token layer, semantic tokens, style guide, styleguide, brand tokens, stop hardcoding colors, agents keep hardcoding hex, the colors are inconsistent, our UI is drifting, retrofit tokens onto this app, add dark mode properly, design system for a client site, install the agent styling rules. DO NOT USE FOR brand voice or writing guidelines (use brand-voice), one-off mockups or wireframes (use /design), illustrations and diagram assets (use /Art or /ImageGen), or chart palettes (use dataviz).",
+      "version": "0.1.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/0nedesignsystem",
+      "category": "general",
+      "homepage": "https://0neos.com"
+    },
+    {
       "name": "0nedoctor",
       "description": "0ne system health check, integrity audit, multi-install detection, secret scan, and past-work recall. USE WHEN 0ne doctor, health check, system check, diagnose, self-heal, fix system, integrity check, audit system, check references, scan for secrets, security scan, \"how many installs do I have\", \"duplicate install\", \"ghost install\", \"which install am I running\", \"we just worked on\", \"remember when we\", \"didn't we already\".",
-      "version": "2.6.0",
+      "version": "2.7.0",
       "author": {
         "name": "0neOS"
       },
@@ -362,7 +373,7 @@
     {
       "name": "art",
       "description": "Complete visual content system. USE WHEN user wants to create visual content, illustrations, diagrams, OR mentions art, header images, visualizations, mermaid, flowchart, technical diagram, infographic, PAI icon, pack icon, or PAI pack icon.",
-      "version": "1.0.1",
+      "version": "1.1.1",
       "author": {
         "name": "0neOS"
       },
@@ -450,7 +461,7 @@
     {
       "name": "end",
       "description": "End session gracefully. USE WHEN /end, ending session, closing terminal, wrapping up. One-shot consolidated output, Session Summary + Handoff Prompt + (conditional) Improvement Opportunities + (conditional) Decision OS proposals + voice line. No blocking questions; user accepts improvements/decisions on next message via brainless pick syntax.",
-      "version": "1.21.0",
+      "version": "1.23.0",
       "author": {
         "name": "0neOS"
       },
@@ -538,7 +549,7 @@
     {
       "name": "research",
       "description": "Fabric-pattern content extraction AND open-web multi-source cited research. USE WHEN user says 'extract wisdom', 'extract alpha', 'analyze content', 'analyze this article/video/transcript', 'use fabric', 'can't get this content', 'research X', 'find sources on X', 'what does the literature say about X', 'extensive research', OR points at a piece of content and asks to process/summarize/extract from it, OR asks an open question that needs cited multi-source synthesis. Extensive mode now runs the full 5-stage pipeline (Scope → 11-angle multi-LLM search → fetch+extract → 3-vote verify → Opus synthesis), absorbed from /deep-research. INVOKE WITH the mode word alone on line 1, blank line, then the question, args must be \"extensive\\n\\n<question>\" (or quick/standard/alpha); a mode word merged into the question line (\"extensive research: ...\") has been observed to reach the fork as EMPTY args. DO NOT USE FOR: due diligence / OSINT / background checks (use OSINT skill).",
-      "version": "1.5.0",
+      "version": "1.5.1",
       "author": {
         "name": "0neOS"
       },

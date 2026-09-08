@@ -1,0 +1,10 @@
+{
+  "name": "0nedesignsystem",
+  "description": "Scaffold a design system into any codebase, semantic tokens, base styles, a live reference page, and the agent instruction block that makes agents actually obey it. Seeds 0ne's brand on 0ne properties and ASKS for the client's brand on a client site. Retrofits onto existing code via a backwards-compatible alias layer. USE WHEN design system, set up a design system, design tokens, token layer, semantic tokens, style guide, styleguide, brand tokens, stop hardcoding colors, agents keep hardcoding hex, the colors are inconsistent, our UI is drifting, retrofit tokens onto this app, add dark mode properly, design system for a client site, install the agent styling rules. DO NOT USE FOR brand voice or writing guidelines (use brand-voice), one-off mockups or wireframes (use /design), illustrations and diagram assets (use /Art or /ImageGen), or chart palettes (use dataviz).",
+  "version": "0.1.0",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}
