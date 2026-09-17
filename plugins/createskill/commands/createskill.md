@@ -1,11 +1,11 @@
 ---
-description: Create and validate skills. USE WHEN create skill, new skill, skill structure, canonicalize. SkillSearch('createskill') for docs.
+description: Create skills. USE WHEN create skill, new skill, skill structure. SkillSearch('createskill') for docs.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # CreateSkill — 0ne Premium Skill
 
-Create and validate skills. USE WHEN create skill, new skill, skill structure, canonicalize. SkillSearch('createskill') for docs.
+Create skills. USE WHEN create skill, new skill, skill structure. SkillSearch('createskill') for docs.
 
 ## Activation Check
 

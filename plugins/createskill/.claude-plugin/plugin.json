@@ -1,7 +1,7 @@
 {
   "name": "createskill",
-  "description": "Create and validate skills. USE WHEN create skill, new skill, skill structure, canonicalize. SkillSearch('createskill') for docs.",
-  "version": "1.6.0",
+  "description": "Create skills. USE WHEN create skill, new skill, skill structure. SkillSearch('createskill') for docs.",
+  "version": "1.8.1",
   "author": {
     "name": "0neOS"
   },
