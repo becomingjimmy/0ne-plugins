@@ -1,0 +1,10 @@
+{
+  "name": "0nedictate",
+  "description": "MANUAL ONLY. NEVER auto-invoke, NEVER infer this skill from intent. Fires ONLY when the literal command \"/0neDictate\" is typed. Sets up dictation on a 0ne client machine: hold a key, talk, and the words land in whatever app has focus. Provided by 0ne Dictate, a free app that runs entirely on their own computer, on macOS, Windows and Linux. For clients whose install predates dictation being bundled, or who still have an older dictation app. THESE ARE NOT TRIGGERS, answer them normally and do NOT load this skill: \"I want to dictate\", \"set up dictation\", \"install 0ne dictate\", \"dictation is not working\", \"0ne dictate is not typing\", \"talk instead of typing\", \"add voice input\", \"my mic is not working\". Those are ordinary requests; help with them directly. DO NOT USE FOR transcribing a file that already exists (use /Transcribe or /Download), capturing a live call (use /0neCopilot), building the context layer by voice (use /0neContext), or the text-to-speech voice that reads responses aloud (use /VoiceServer).",
+  "version": "0.5.1",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}
