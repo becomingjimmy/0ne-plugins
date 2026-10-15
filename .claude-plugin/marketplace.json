@@ -10,7 +10,7 @@
     {
       "name": "0neadvisormaker",
       "description": "Create AI advisors from expert content OR software documentation. USE WHEN creating advisor, building persona, advisor from transcript, advisor from content, new advisor, make advisor, advisor setup, advisor for [API/SDK/product], software advisor, API advisor, knowledge base for [product].",
-      "version": "2.7.2",
+      "version": "2.7.3",
       "author": {
         "name": "0neOS"
       },
@@ -43,7 +43,7 @@
     {
       "name": "0nebookmarklet",
       "description": "Turn a sentence into a permanent one-click browser tool. Builds a bookmarklet, tests it, and hands back a branded drag-to-install page. USE WHEN bookmarklet, make me a bookmarklet, browser button, one click tool, bookmarks bar, tiny browser tool, automate this page, button that does, save this page as, tool for this website, i keep doing this on every page.",
-      "version": "1.2.4",
+      "version": "1.2.5",
       "author": {
         "name": "0neOS"
       },
@@ -153,7 +153,7 @@
     {
       "name": "0necopilot",
       "description": "Live session copilot. Taps Zoom or a room mic, transcribes both sides, and runs a turn-by-turn orchestrator that feeds you the next question live. USE WHEN run copilot, start copilot, /0neCopilot, live copilot, listen to this call, listen along, real-time coaching, live transcription, live prompt during a call, session copilot, paid session, sales call, sales discovery, discovery call, hiring interview, podcast interview, coaching call, 1-on-1, team standup, in-person interview, offline mode, room mic, capture this conversation, new mode, mode design. DO NOT USE FOR building or synthesizing the context layer itself (use /0neContext, which OWNS \"interview me\", \"context interview\" and \"build my context\" and calls this skill for the voice leg). DO NOT USE FOR transcribing an existing recording or video file (use /Transcribe or /Download): this skill captures LIVE audio and is useless on a file that already exists.",
-      "version": "1.33.2",
+      "version": "1.40.0",
       "author": {
         "name": "0neOS"
       },
@@ -197,7 +197,7 @@
     {
       "name": "0nedoctor",
       "description": "0ne system health check, integrity audit, multi-install detection, secret scan, and past-work recall. USE WHEN 0ne doctor, health check, system check, diagnose, self-heal, fix system, integrity check, audit system, check references, scan for secrets, security scan, \"how many installs do I have\", \"duplicate install\", \"ghost install\", \"which install am I running\", \"we just worked on\", \"remember when we\", \"didn't we already\".",
-      "version": "2.9.0",
+      "version": "2.10.0",
       "author": {
         "name": "0neOS"
       },
@@ -274,7 +274,7 @@
     {
       "name": "0neplan",
       "description": "The plan before the plan, a thought partner that finds the real goal before designing a build. USE WHEN /0nePlan, \"0ne plan\", \"help me plan this build\", \"design a solution for\", \"plan out this app\", \"I have an idea I want to plan\", \"think through this build with me\", \"what's the best way to build\", \"architect this for me\", OR before handing a build to plan mode / Algorithm mode. Runs a four-phase arc: extract the true goal, brainstorm solutions, match to what 0ne already owns, hand a designed plan to Build.",
-      "version": "0.8.0",
+      "version": "0.9.0",
       "author": {
         "name": "0neOS"
       },
@@ -307,7 +307,7 @@
     {
       "name": "0nesource",
       "description": "Step 5 source-gathering parent skill. Given a constraint and a one-line ask, route to the right child tool (Download / Research extensive / Transcribe / OSINT / Apify / firecrawl / 0neApiRecon / ExtractKnowledge) and land raw material in 03 - Knowledge/<Name>/Source Material/. USE WHEN {PRINCIPAL_NAME} says /0neSource, \"source [X]\", \"gather expert content\", \"capture this podcast\", \"load up [expert] knowledge\", \"pull material on [topic]\", \"build a source folder for [expert/product]\", \"start sourcing for my constraint\", \"scrape this site for source material\", \"interview my senior employee\", \"camcorder this\", or otherwise wants to GATHER raw expert/product/internal material (not synthesize, not build an advisor, that's Step 6 Clone).",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "author": {
         "name": "0neOS"
       },
@@ -472,11 +472,22 @@
     {
       "name": "end",
       "description": "End session gracefully. USE WHEN /end, ending session, closing terminal, wrapping up. One-shot consolidated output, Session Summary + Handoff Prompt + (conditional) Improvement Opportunities + (conditional) Decision OS proposals + voice line. No blocking questions; user accepts improvements/decisions on next message via brainless pick syntax.",
-      "version": "1.37.0",
+      "version": "1.41.0",
       "author": {
         "name": "0neOS"
       },
       "source": "./plugins/end",
+      "category": "general",
+      "homepage": "https://0neos.com"
+    },
+    {
+      "name": "extractknowledge",
+      "description": "MANUAL ONLY. NEVER auto-invoke, NEVER infer this skill from intent. Fires ONLY when the literal command \"/ExtractKnowledge\" is typed, or when /0neSource dispatches it BY NAME through its Gate 0 direct-child shortcut (`/0neSource ExtractKnowledge. Course at <path>. Put it into <Name>.`). Pulls the knowledge out of a downloaded course, workshop or product bundle sitting on disk: ingests multi-part zip downloads, transcribes video/audio, converts PDF+docx and saved lesson pages (.html/.htm) to markdown, preserves non-textable assets (images, spreadsheets, keynote), and lands everything in 03 - Knowledge/<Name>/Source Material/ while leaving the raw media where it is. Zero LLM cost, all local tools. THESE ARE NOT TRIGGERS, answer them normally and do NOT load this skill: \"extract this course\", \"extract knowledge\", \"ingest this course\", \"put this into knowledge\", \"load this course into 0ne\", \"transcribe this course\", \"course on my desktop\", \"do the same thing we did with that course\". Those are ordinary requests. If one of them is plainly what {PRINCIPAL_NAME} wants, name the command and let him type it; do not load this skill on inference and do not hand-roll the pipeline instead. DO NOT USE FOR a single media file (use /Transcribe), a URL (use /Download), a classroom still hosted online (download it to disk first), or Fabric-style extraction from one piece of content (use /Research, which owns \"extract knowledge from content\").",
+      "version": "3.3.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/extractknowledge",
       "category": "general",
       "homepage": "https://0neos.com"
     },
@@ -527,7 +538,7 @@
     {
       "name": "imagegen",
       "description": "Generate images using Gemini API. USE WHEN generate image, create image, image of, picture of, illustration of, draw, visualize, /image.",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "author": {
         "name": "0neOS"
       },
