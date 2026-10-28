@@ -1,7 +1,7 @@
 {
   "name": "0nemonitor",
-  "description": "Track and grade the things you've built, automations, skills, apps, processes, and get told where to go back to when they aren't working. Keeps a registry at `05 - Context/Monitors.md`. USE WHEN start monitoring this, add this to what i track, capture a baseline, record the before, grade this automation, did my automation work, is this thing still running, how is that skill performing, what should i fix next, build me a watcher for this, alert me if this stops. DO NOT USE FOR checking whether your website or cloud app is up (use /0neCloudStatus), or checking 0ne system health (use /0neDoctor).",
-  "version": "0.2.0",
+  "description": "Grade the things you've built, automations, skills, apps, processes, at a check-in, against a baseline recorded earlier, and get told where to go back to when they aren't working. A grader you run on demand, NOT active monitoring: it never watches, polls, counts, alerts or runs on a schedule. Keeps a registry at `05 - Context/Monitors.md`. USE WHEN grade this automation, did my automation work, how is that skill performing, what should i fix next, check-in grade, record the before, capture a baseline, add this to the monitoring registry. DO NOT USE FOR watching something live, a dashboard, counting a number each week, or alerting when something stops (that is built INTO the thing by /0neBuild), checking whether your website or cloud app is up (use /0neCloudStatus), or checking 0ne system health (use /0neDoctor).",
+  "version": "0.3.0",
   "author": {
     "name": "0neOS"
   },

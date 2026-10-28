@@ -1,11 +1,11 @@
 ---
-description: Create a new project with proper infrastructure. USE WHEN starting a new project, "let's build", "let's start", "new project for", "kick off a project", or whenever {PRINCIPAL_NAME} is beginning multi-session work. Auto-creates the project folder under 02 - Projects/ with CLAUDE.md and PROJECT-STATE.md.
+description: Create a new project with proper infrastructure. USE WHEN starting a new project, "let's build", "let's start", "new project for", "kick off a project", or whenever {PRINCIPAL_NAME} is beginning multi-session work. Auto-creates the project folder under 02 - Projects/ with AGENTS.md (plus a one-line CLAUDE.md) and PROJECT-STATE.md.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # 0neProject — 0ne Premium Skill
 
-Create a new project with proper infrastructure. USE WHEN starting a new project, "let's build", "let's start", "new project for", "kick off a project", or whenever {PRINCIPAL_NAME} is beginning multi-session work. Auto-creates the project folder under 02 - Projects/ with CLAUDE.md and PROJECT-STATE.md.
+Create a new project with proper infrastructure. USE WHEN starting a new project, "let's build", "let's start", "new project for", "kick off a project", or whenever {PRINCIPAL_NAME} is beginning multi-session work. Auto-creates the project folder under 02 - Projects/ with AGENTS.md (plus a one-line CLAUDE.md) and PROJECT-STATE.md.
 
 ## Activation Check
 

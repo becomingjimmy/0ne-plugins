@@ -1,0 +1,10 @@
+{
+  "name": "0neclouddomain",
+  "description": "Connect your own domain to your 0ne Cloud site and manage it end to end without the portal - add it, get the exact DNS records, connect your DNS provider (Cloudflare, Namecheap, Porkbun) so the records are created for you, check until it is live, change what it shows or who can see it, and remove it. USE WHEN /0neCloudDomain, connect my domain to my site, use my own domain, custom domain for my 0ne Cloud site, point my domain at my site, is my domain live yet, check my domain, what DNS records does my site need, connect my DNS provider to 0ne, let my One manage my DNS, make my domain public, make my domain private, remove my domain from my site. DO NOT USE FOR buying or registering a domain, checking availability, whois or renewal (a person does that at their registrar), publishing site changes (use /0neCloudPublish), or checking whether the site itself is up (use /0neCloudStatus).",
+  "version": "0.1.1",
+  "author": {
+    "name": "0neOS"
+  },
+  "category": "general",
+  "homepage": "https://0neos.com"
+}
