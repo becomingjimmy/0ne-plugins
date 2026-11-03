@@ -1,11 +1,11 @@
 ---
-description: Create a new project with proper infrastructure. USE WHEN starting a new project, "let's build", "let's start", "new project for", "kick off a project", or whenever {PRINCIPAL_NAME} is beginning multi-session work. Auto-creates the project folder under 02 - Projects/ with AGENTS.md (plus a one-line CLAUDE.md) and PROJECT-STATE.md.
+description: Create a new project with proper infrastructure, and set up the hub pattern for running a project across several sessions. USE WHEN starting a new project, "let's build", "let's start", "new project for", "kick off a project", or whenever {PRINCIPAL_NAME} is beginning multi-session work, OR when asked to coordinate an EXISTING project across sessions: "act as the hub", "be the hub for", "hub for my project", "manage this with linked sessions", "launch linked sessions and keep track", "orchestrate this project", "catch up on what is there then manage it". Auto-creates the project folder under 02 - Projects/ with AGENTS.md (plus a one-line CLAUDE.md) and PROJECT-STATE.md; for an existing project it adds the Coordination and Decisions sections instead of creating anything.
 allowed-tools: ["Read", "Bash", "Glob", "AskUserQuestion"]
 ---
 
 # 0neProject — 0ne Premium Skill
 
-Create a new project with proper infrastructure. USE WHEN starting a new project, "let's build", "let's start", "new project for", "kick off a project", or whenever {PRINCIPAL_NAME} is beginning multi-session work. Auto-creates the project folder under 02 - Projects/ with AGENTS.md (plus a one-line CLAUDE.md) and PROJECT-STATE.md.
+Create a new project with proper infrastructure, and set up the hub pattern for running a project across several sessions. USE WHEN starting a new project, "let's build", "let's start", "new project for", "kick off a project", or whenever {PRINCIPAL_NAME} is beginning multi-session work, OR when asked to coordinate an EXISTING project across sessions: "act as the hub", "be the hub for", "hub for my project", "manage this with linked sessions", "launch linked sessions and keep track", "orchestrate this project", "catch up on what is there then manage it". Auto-creates the project folder under 02 - Projects/ with AGENTS.md (plus a one-line CLAUDE.md) and PROJECT-STATE.md; for an existing project it adds the Coordination and Decisions sections instead of creating anything.
 
 ## Activation Check
 
