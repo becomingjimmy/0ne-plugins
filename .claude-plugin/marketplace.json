@@ -10,7 +10,7 @@
     {
       "name": "0neadvisormaker",
       "description": "Create AI advisors from expert content OR software documentation. USE WHEN creating advisor, building persona, advisor from transcript, advisor from content, new advisor, make advisor, advisor setup, advisor for [API/SDK/product], software advisor, API advisor, knowledge base for [product].",
-      "version": "2.8.0",
+      "version": "2.8.1",
       "author": {
         "name": "0neOS"
       },
@@ -43,7 +43,7 @@
     {
       "name": "0nebookmarklet",
       "description": "Turn a sentence into a permanent one-click browser tool. Builds a bookmarklet, tests it, and hands back a branded drag-to-install page. USE WHEN bookmarklet, make me a bookmarklet, browser button, one click tool, bookmarks bar, tiny browser tool, automate this page, button that does, save this page as, tool for this website, i keep doing this on every page.",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "author": {
         "name": "0neOS"
       },
@@ -65,7 +65,7 @@
     {
       "name": "0neclone",
       "description": "Step 6 clone-routing parent skill. Given a `/0neSource`-shaped folder at `03 - Knowledge/<Name>/`, route to the right child (`/Synthesize` for Playbook, `/0neAdvisorMaker` for Advisor, `/0neCouncil` for Council) and land the resulting artifact. Also scaffolds `03 - Knowledge/<Name>/` knowledge folders on natural-language request. USE WHEN {PRINCIPAL_NAME} says /0neClone, \"clone [X]\", \"make a playbook from [X]\", \"build an advisor from [X]\", \"convene a council on [X]\", \"set up a knowledge folder for [X]\", \"turn this source into a playbook\", or otherwise wants to CLONE raw source into a usable artifact (playbook, advisor, or council). Step 6 of 0neOS Roadmap V7, sits between `/0neSource` (Step 5 gather) and downstream skill-build / execution steps.",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "author": {
         "name": "0neOS"
       },
@@ -164,7 +164,7 @@
     {
       "name": "0necopilot",
       "description": "Live session copilot. Taps Zoom or a room mic, transcribes both sides, and runs a turn-by-turn orchestrator that feeds you the next question live. USE WHEN run copilot, start copilot, /0neCopilot, live copilot, listen to this call, listen along, real-time coaching, live transcription, live prompt during a call, session copilot, paid session, sales call, sales discovery, discovery call, hiring interview, podcast interview, coaching call, 1-on-1, team standup, in-person interview, offline mode, room mic, capture this conversation, new mode, mode design. DO NOT USE FOR building or synthesizing the context layer itself (use /0neContext, which OWNS \"interview me\", \"context interview\" and \"build my context\" and calls this skill for the voice leg). DO NOT USE FOR transcribing an existing recording or video file (use /Transcribe or /Download): this skill captures LIVE audio and is useless on a file that already exists.",
-      "version": "1.40.0",
+      "version": "1.40.1",
       "author": {
         "name": "0neOS"
       },
@@ -186,7 +186,7 @@
     {
       "name": "0nedesignsystem",
       "description": "Scaffold a design system into any codebase, semantic tokens, base styles, a live reference page, and the agent instruction block that makes agents actually obey it. Seeds 0ne's brand on 0ne properties and ASKS for the client's brand on a client site. Retrofits onto existing code via a backwards-compatible alias layer. USE WHEN design system, set up a design system, design tokens, token layer, semantic tokens, style guide, styleguide, brand tokens, stop hardcoding colors, agents keep hardcoding hex, the colors are inconsistent, our UI is drifting, retrofit tokens onto this app, add dark mode properly, design system for a client site, install the agent styling rules, match this site, make it look like this, here is a screenshot of a design I like, copy this look, update the design system from a screenshot, propagate the design system, the token copies have drifted. DO NOT USE FOR brand voice or writing guidelines (use brand-voice), one-off mockups or wireframes (use /design), illustrations and diagram assets (use /Art or /ImageGen), or chart palettes (use dataviz).",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "author": {
         "name": "0neOS"
       },
@@ -208,7 +208,7 @@
     {
       "name": "0nedoctor",
       "description": "0ne system health check, integrity audit, multi-install detection, secret scan, and past-work recall. USE WHEN 0ne doctor, health check, system check, diagnose, self-heal, fix system, integrity check, audit system, check references, scan for secrets, security scan, \"how many installs do I have\", \"duplicate install\", \"ghost install\", \"which install am I running\", \"we just worked on\", \"remember when we\", \"didn't we already\".",
-      "version": "2.11.0",
+      "version": "2.11.1",
       "author": {
         "name": "0neOS"
       },
@@ -318,7 +318,7 @@
     {
       "name": "0nesource",
       "description": "Step 5 source-gathering parent skill. Given a constraint and a one-line ask, route to the right child tool (Download / Research extensive / Transcribe / OSINT / Apify / firecrawl / 0neApiRecon / ExtractKnowledge) and land raw material in 03 - Knowledge/<Name>/Source Material/. USE WHEN {PRINCIPAL_NAME} says /0neSource, \"source [X]\", \"gather expert content\", \"capture this podcast\", \"load up [expert] knowledge\", \"pull material on [topic]\", \"build a source folder for [expert/product]\", \"start sourcing for my constraint\", \"scrape this site for source material\", \"interview my senior employee\", \"camcorder this\", or otherwise wants to GATHER raw expert/product/internal material (not synthesize, not build an advisor, that's Step 6 Clone).",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "author": {
         "name": "0neOS"
       },
@@ -373,7 +373,7 @@
     {
       "name": "0nevisualize",
       "description": "Turn something that already exists, a doc, a folder, a workflow, a pipeline, a dataset, an org chart, a process, into a self-contained interactive HTML artifact you can open in a browser. USE WHEN visualize this doc, visualize this workflow, visualize this folder, turn this into an html visual, make an interactive view of this, render this pipeline as a page, build a visual artifact from these files, show me this process as a page i can open, make this readable at a glance, i want to see this system. DO NOT USE FOR generating images, pictures or illustrations (use ImageGen), or for deck/doc diagram assets like mermaid, infographics and header art (use Art).",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "0neOS"
       },
@@ -395,7 +395,7 @@
     {
       "name": "art",
       "description": "Complete visual content system. USE WHEN user wants to create visual content, illustrations, diagrams, OR mentions art, header images, visualizations, mermaid, flowchart, technical diagram, infographic, PAI icon, pack icon, or PAI pack icon.",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "author": {
         "name": "0neOS"
       },
@@ -483,7 +483,7 @@
     {
       "name": "end",
       "description": "End session gracefully. USE WHEN /end, ending session, closing terminal, wrapping up. One-shot consolidated output, Session Summary + Handoff Prompt + (conditional) Improvement Opportunities + (conditional) Decision OS proposals + voice line. No blocking questions; user accepts improvements/decisions on next message via brainless pick syntax.",
-      "version": "1.44.0",
+      "version": "1.44.1",
       "author": {
         "name": "0neOS"
       },
@@ -516,7 +516,7 @@
     {
       "name": "ghl",
       "description": "GoHighLevel API ACTION layer (credentials, CLI, quick recipes). Pairs with the GHL software advisor at `03 - Knowledge/GHL/` (KNOWLEDGE layer, verbatim spec for all v2 + v3 endpoints). USE WHEN ghl, gohighlevel, crm, contacts, send email, send sms, workflows, trigger links, custom fields, opportunities, deals, pipelines, calendars, appointments, payments, invoices, products, campaigns, social media.",
-      "version": "2.12.4",
+      "version": "2.12.5",
       "author": {
         "name": "0neOS"
       },
