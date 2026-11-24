@@ -1,7 +1,7 @@
 {
   "name": "0neemail",
   "description": "Installs and runs 0neEmail, the cloud inbox sorter (sender rules, a Review queue, a 30-day undo log), as an optional module on a member's OWN 0ne Cloud site, then is its chat front door. Same API as the app, with an email agent token. USE WHEN install 0neEmail, add the email app to my site, update 0neEmail, remove 0neEmail, inbox status, how is my inbox, 0neEmail, clean my inbox in 0neEmail, deep clean my inbox, remove duplicate emails, email rules, add an email rule, label this sender's email, email labels, turn off an email rule, delete an email rule, archive this sender's marketing, review queue, clear email review, what's in my inbox, read my inbox, archive everything from this sender, undo email action, undo that archive, 0neEmail setup, connect Gmail to 0neEmail, email doctor, is 0neEmail syncing, gmail filter audit, audit my gmail filters, which filters hide my mail, a filter archived my bill, bring back hidden notices, set up a Google Cloud OAuth app, create Google OAuth client, Gmail API credentials, new GCP project for OAuth, enable Gmail API, enable a Google API, OAuth consent screen, publish OAuth app to production, add OAuth scopes, verify Google client secret, is my Google client secret valid, GOCSPX, Gmail push, Pub/Sub topic for Gmail, instant email sync. DO NOT USE FOR a one-off bulk triage of the inbox with the local gws CLI, \"triage\", \"clean inbox\", nuke cold emails (use /EmailTriage), undoing code changes (use /0neCloudUndo), 0ne system health (use /0neDoctor), sending or drafting mail (use /Google).",
-  "version": "1.22.0",
+  "version": "1.27.1",
   "author": {
     "name": "0neOS"
   },

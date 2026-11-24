@@ -85,6 +85,17 @@
       "homepage": "https://0neos.com"
     },
     {
+      "name": "0necloudmcp",
+      "description": "Connect Claude (web, desktop or phone) to your 0ne Cloud so Claude can work in your apps with no computer on and no Claude Code. A short interview decides which connection you need, the one 0ne Gateway connection for everything you own, or one site's own connection for a staff member or client, then gives you the exact URL, the steps, a first test and a copy-paste note for your team. USE WHEN /0neCloudMCP, connect Claude to my 0ne Cloud, use my 0ne Cloud from Claude, manage my site from my phone, add my 0ne Cloud as a connector, set up the 0ne Gateway, gateway or instance connector, which connector do I need, give my team Claude access to my site, my VA wants to use Claude on my site, Connect Claude switch, AI Access, the connector says 404, I can't add a custom connector. DO NOT USE FOR evaluating or auditing a third-party MCP server you are thinking of installing (use /0neMCP), connecting a custom domain to your site (use /0neCloudDomain), or adding a new app to your site (use /0neBuild).",
+      "version": "1.0.0",
+      "author": {
+        "name": "0neOS"
+      },
+      "source": "./plugins/0necloudmcp",
+      "category": "general",
+      "homepage": "https://0neos.com"
+    },
+    {
       "name": "0necloudmerge",
       "description": "Merge a standalone app into your 0ne Cloud as a mini-app. USE WHEN merging app, refactor app for cloud, migrate to cloud, integrate app, fold into cloud, mini-app conversion, move app to cloud.",
       "version": "1.5.0",
@@ -219,7 +230,7 @@
     {
       "name": "0neemail",
       "description": "Installs and runs 0neEmail, the cloud inbox sorter (sender rules, a Review queue, a 30-day undo log), as an optional module on a member's OWN 0ne Cloud site, then is its chat front door. Same API as the app, with an email agent token. USE WHEN install 0neEmail, add the email app to my site, update 0neEmail, remove 0neEmail, inbox status, how is my inbox, 0neEmail, clean my inbox in 0neEmail, deep clean my inbox, remove duplicate emails, email rules, add an email rule, label this sender's email, email labels, turn off an email rule, delete an email rule, archive this sender's marketing, review queue, clear email review, what's in my inbox, read my inbox, archive everything from this sender, undo email action, undo that archive, 0neEmail setup, connect Gmail to 0neEmail, email doctor, is 0neEmail syncing, gmail filter audit, audit my gmail filters, which filters hide my mail, a filter archived my bill, bring back hidden notices, set up a Google Cloud OAuth app, create Google OAuth client, Gmail API credentials, new GCP project for OAuth, enable Gmail API, enable a Google API, OAuth consent screen, publish OAuth app to production, add OAuth scopes, verify Google client secret, is my Google client secret valid, GOCSPX, Gmail push, Pub/Sub topic for Gmail, instant email sync. DO NOT USE FOR a one-off bulk triage of the inbox with the local gws CLI, \"triage\", \"clean inbox\", nuke cold emails (use /EmailTriage), undoing code changes (use /0neCloudUndo), 0ne system health (use /0neDoctor), sending or drafting mail (use /Google).",
-      "version": "1.22.0",
+      "version": "1.27.1",
       "author": {
         "name": "0neOS"
       },
@@ -251,8 +262,8 @@
     },
     {
       "name": "0nemcp",
-      "description": "Evaluate an MCP server BEFORE you install it, and audit the MCPs you already run. Tells you in plain language what it will cost you and whether to install it, and builds the CLI replacement when that is the better answer. USE WHEN should I install this mcp, is this mcp safe, evaluate this mcp, audit my mcps, what mcps am I running, is an mcp slowing me down, check this mcp server, /0neMCP, is this mcp worth it, mcp cost, mcp process audit, mcp orphans. DO NOT USE FOR a full 0ne system health check or integrity audit (use /0neDoctor), or for deep-diving a whole agent framework or harness to decide whether to adopt it (use /0neAgentAnalysis). This skill fires on ONE named MCP server, or on the set of MCP servers currently registered.",
-      "version": "1.0.0",
+      "description": "Evaluate an MCP server BEFORE you install it, and audit the MCPs you already run. Tells you in plain language what it will cost you and whether to install it, and builds the CLI replacement when that is the better answer. USE WHEN should I install this mcp, is this mcp safe, evaluate this mcp, audit my mcps, what mcps am I running, is an mcp slowing me down, check this mcp server, /0neMCP, is this mcp worth it, mcp cost, mcp process audit, mcp orphans. DO NOT USE FOR a full 0ne system health check or integrity audit (use /0neDoctor), or for deep-diving a whole agent framework or harness to decide whether to adopt it (use /0neAgentAnalysis), or for connecting Claude to your 0ne Cloud (use /0neCloudMCP). This skill fires on ONE named MCP server, or on the set of MCP servers currently registered.",
+      "version": "1.0.1",
       "author": {
         "name": "0neOS"
       },
@@ -504,8 +515,8 @@
     },
     {
       "name": "extractknowledge",
-      "description": "MANUAL ONLY. NEVER auto-invoke, NEVER infer this skill from intent. Fires ONLY when the literal command \"/ExtractKnowledge\" is typed, or when /0neSource dispatches it BY NAME through its Gate 0 direct-child shortcut (`/0neSource ExtractKnowledge. Course at <path>. Put it into <Name>.`). Pulls the knowledge out of a downloaded course, workshop or product bundle sitting on disk: ingests multi-part zip downloads, transcribes video/audio, converts PDF+docx and saved lesson pages (.html/.htm) to markdown, preserves non-textable assets (images, spreadsheets, keynote), and lands everything in 03 - Knowledge/<Name>/Source Material/ while leaving the raw media where it is. Zero LLM cost, all local tools. THESE ARE NOT TRIGGERS, answer them normally and do NOT load this skill: \"extract this course\", \"extract knowledge\", \"ingest this course\", \"put this into knowledge\", \"load this course into 0ne\", \"transcribe this course\", \"course on my desktop\", \"do the same thing we did with that course\". Those are ordinary requests. If one of them is plainly what {PRINCIPAL_NAME} wants, name the command and let him type it; do not load this skill on inference and do not hand-roll the pipeline instead. DO NOT USE FOR a single media file (use /Transcribe), a URL (use /Download), a course still hosted on its original platform, or Fabric-style extraction from one piece of content (use /Research, which owns \"extract knowledge from content\").",
-      "version": "3.8.1",
+      "description": "MANUAL ONLY. NEVER auto-invoke, NEVER infer this skill from intent. Fires ONLY when the literal command \"/ExtractKnowledge\" is typed, or when /0neSource dispatches it BY NAME through its Gate 0 direct-child shortcut (`/0neSource ExtractKnowledge. Course at <path>. Put it into <Name>.`). Pulls the knowledge out of a downloaded course, workshop or product bundle sitting on disk: ingests multi-part zip downloads, transcribes video/audio and captures what each video shows on screen, keeps a compressed copy of every video, converts PDF+docx and saved lesson pages (.html/.htm) to markdown, preserves non-textable assets (images, spreadsheets, keynote), and lands everything in 03 - Knowledge/<Name>/Source Material/ while leaving the raw media where it is. Zero LLM cost, all local tools. THESE ARE NOT TRIGGERS, answer them normally and do NOT load this skill: \"extract this course\", \"extract knowledge\", \"ingest this course\", \"put this into knowledge\", \"load this course into 0ne\", \"transcribe this course\", \"course on my desktop\", \"do the same thing we did with that course\". Those are ordinary requests. If one of them is plainly what {PRINCIPAL_NAME} wants, name the command and let him type it; do not load this skill on inference and do not hand-roll the pipeline instead. DO NOT USE FOR a single media file (use /Transcribe), a URL (use /Download), a course still hosted on its original platform, or Fabric-style extraction from one piece of content (use /Research, which owns \"extract knowledge from content\").",
+      "version": "3.12.1",
       "author": {
         "name": "0neOS"
       },
